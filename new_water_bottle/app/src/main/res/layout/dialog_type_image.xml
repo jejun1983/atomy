@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:layout_marginStart="24dp"
+  android:layout_marginEnd="24dp"
+  android:background="@android:color/transparent"
+  android:maxHeight="536dp"
+  android:padding="0dp">
+
+  <!-- CONTENT -->
+  <ImageView
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:background="@drawable/popup_bg"
+    android:scaleType="fitCenter"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <!-- BUTTON -->
+  <include
+    layout="@layout/widget_popup_button"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

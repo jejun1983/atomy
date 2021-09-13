@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".activity.DevActivity">
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:text="확인" />
+
+  <LinearLayout
+    android:id="@+id/test_layout_url"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:text="서버URL" />
+
+    <TextView
+      android:id="@+id/textview_server_url"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="10dp" />
+
+    <Button
+      android:id="@+id/btn_server_change"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:text="서버 변경" />
+
+  </LinearLayout>
+
+
+<!--  <LinearLayout-->
+<!--    android:id="@+id/test_layout_ctn"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@id/test_layout_url"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <TextView-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:padding="10dp"-->
+<!--      android:text="CTN" />-->
+
+<!--    <TextView-->
+<!--      android:id="@+id/textview_ctn"-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:padding="10dp" />-->
+
+<!--    <Button-->
+<!--      android:id="@+id/btn_ctn_change"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:padding="10dp"-->
+<!--      android:text="CTN 변경" />-->
+
+<!--    <Button-->
+<!--      android:id="@+id/btn_popup_test"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginTop="100dp"-->
+<!--      android:padding="10dp"-->
+<!--      android:visibility="gone"-->
+<!--      android:text="POPUP TEST" />-->
+
+
+<!--  </LinearLayout>-->
+</RelativeLayout>

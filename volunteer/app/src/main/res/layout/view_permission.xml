@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gra01"
+    android:fitsSystemWindows="true">
+
+  <LinearLayout
+      android:id="@+id/bottom_layout"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/px_200"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_permission_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/permission_cancel"
+        tools:targetApi="jelly_bean" />
+
+    <ImageButton
+        android:id="@+id/btn_permission_ok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/permission_ok"
+        tools:targetApi="jelly_bean" />
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/bottom_layout"
+      android:scaleType="centerInside"
+      android:background="@null"
+      android:src="@drawable/permission_main" />
+
+
+</RelativeLayout>

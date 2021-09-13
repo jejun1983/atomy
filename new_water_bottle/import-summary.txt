@@ -1,0 +1,150 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\CustomerService.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\medialog\
+* doc\com\medialog\umobi\
+* doc\com.idevel.waterbottle\
+* doc\com.idevel.waterbottle\MainActivity.CheckAppVersionTask.html
+* doc\com.idevel.waterbottle\MainActivity.html
+* doc\com.idevel.waterbottle\class-use\
+* doc\com.idevel.waterbottle\class-use\MainActivity.CheckAppVersionTask.html
+* doc\com.idevel.waterbottle\class-use\MainActivity.html
+* doc\com.idevel.waterbottle\data\
+* doc\com.idevel.waterbottle\data\UrlData.html
+* doc\com.idevel.waterbottle\data\class-use\
+* doc\com.idevel.waterbottle\data\class-use\UrlData.html
+* doc\com.idevel.waterbottle\data\package-frame.html
+* doc\com.idevel.waterbottle\data\package-summary.html
+* doc\com.idevel.waterbottle\data\package-tree.html
+* doc\com.idevel.waterbottle\data\package-use.html
+* doc\com.idevel.waterbottle\package-frame.html
+* doc\com.idevel.waterbottle\package-summary.html
+* doc\com.idevel.waterbottle\package-tree.html
+* doc\com.idevel.waterbottle\package-use.html
+* doc\com.idevel.waterbottle\service\
+* doc\com.idevel.waterbottle\service\NotiService.GetNotiInfoTask.html
+* doc\com.idevel.waterbottle\service\NotiService.NotiViewInfo.html
+* doc\com.idevel.waterbottle\service\NotiService.html
+* doc\com.idevel.waterbottle\service\NotiServiceReceiver.html
+* doc\com.idevel.waterbottle\service\WebInterface.html
+* doc\com.idevel.waterbottle\service\class-use\
+* doc\com.idevel.waterbottle\service\class-use\NotiService.GetNotiInfoTask.html
+* doc\com.idevel.waterbottle\service\class-use\NotiService.NotiViewInfo.html
+* doc\com.idevel.waterbottle\service\class-use\NotiService.html
+* doc\com.idevel.waterbottle\service\class-use\NotiServiceReceiver.html
+* doc\com.idevel.waterbottle\service\class-use\WebInterface.html
+* doc\com.idevel.waterbottle\service\package-frame.html
+* doc\com.idevel.waterbottle\service\package-summary.html
+* doc\com.idevel.waterbottle\service\package-tree.html
+* doc\com.idevel.waterbottle\service\package-use.html
+* doc\com.idevel.waterbottle\utils\
+* doc\com.idevel.waterbottle\utils\DLog.html
+* doc\com.idevel.waterbottle\utils\MyWebChromeClient.html
+* doc\com.idevel.waterbottle\utils\MyWebViewClient.html
+* doc\com.idevel.waterbottle\utils\ReceivedErrorListener.html
+* doc\com.idevel.waterbottle\utils\SharedPreferencesUtil.Cmd.html
+* doc\com.idevel.waterbottle\utils\SharedPreferencesUtil.html
+* doc\com.idevel.waterbottle\utils\Utils.html
+* doc\com.idevel.waterbottle\utils\class-use\
+* doc\com.idevel.waterbottle\utils\class-use\DLog.html
+* doc\com.idevel.waterbottle\utils\class-use\MyWebChromeClient.html
+* doc\com.idevel.waterbottle\utils\class-use\MyWebViewClient.html
+* doc\com.idevel.waterbottle\utils\class-use\ReceivedErrorListener.html
+* doc\com.idevel.waterbottle\utils\class-use\SharedPreferencesUtil.Cmd.html
+* doc\com.idevel.waterbottle\utils\class-use\SharedPreferencesUtil.html
+* doc\com.idevel.waterbottle\utils\class-use\Utils.html
+* doc\com.idevel.waterbottle\utils\package-frame.html
+* doc\com.idevel.waterbottle\utils\package-summary.html
+* doc\com.idevel.waterbottle\utils\package-tree.html
+* doc\com.idevel.waterbottle\utils\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\inherit.gif
+* doc\stylesheet.css
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/jjbae/Desktop/backup/volunteer",
+      "sdkFolder": "/Users/jjbae/Desktop/work/SDK",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/jjbae/Desktop/backup/volunteer/app",
+      "makeFile": "/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/jjbae/Desktop/backup/volunteer/.cxx",
+      "cxxFolder": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx",
+      "ndkFolder": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a",
+  "jsonFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a",
+  "buildCommandFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/jjbae/Desktop/backup/volunteer/app/.cxx/ndkBuild/release/arm64-v8a/compile_commands.json"
+}

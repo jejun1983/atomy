@@ -1,0 +1,343 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.idevel.tatalk"
+4    android:versionCode="2"
+5    android:versionName="1.1.0" > <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+6    <uses-sdk
+7        android:minSdkVersion="19"
+7-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:112:3-65
+10-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:112:20-62
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:113:3-79
+11-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:113:20-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:114:3-77
+12-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:114:20-74
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:115:3-66
+13-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:115:20-63
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:116:3-64
+14-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:116:20-61
+15
+16    <!-- 필수권한 -->
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:119:3-73
+17-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:119:20-70
+18
+19    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" />&lt;!&ndash;  contacts 관리 &ndash;&gt; -->
+20    <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS" /> -->
+21
+22    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+22-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:124:3-69
+22-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:124:20-66
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 현재 기기 위치 -->
+23-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:126:3-77
+23-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:126:20-74
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:127:3-79
+24-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:127:20-76
+25
+26    <!-- <uses-permission android:name="android.permission.CAMERA" />&lt;!&ndash;사진 찍기, 비디오 녹화 &ndash;&gt; -->
+27
+28
+29    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />&lt;!&ndash;  사진, 미디어 파일 접근&ndash;&gt; -->
+30    <!-- <ses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:135:3-74
+32-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:135:20-71
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:5-110
+33-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:22-107
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:5-82
+34-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:22-79
+35
+36    <permission
+36-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:28:5-30:47
+37        android:name="com.idevel.tatalk.permission.C2D_MESSAGE"
+37-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:29:9-63
+38        android:protectionLevel="signature" />
+38-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:30:9-44
+39
+40    <uses-permission android:name="com.idevel.tatalk.permission.C2D_MESSAGE" />
+40-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:5-79
+40-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:22-76
+41
+42    <application
+42-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:5:3-110:17
+43        android:name="com.idevel.tatalk.MyApplication"
+43-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:6:7-53
+44        android:allowBackup="false"
+44-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:7:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c42640b9f72e115ebb9b0a5bad5c65bd/core-1.0.1/AndroidManifest.xml:22:18-86
+46        android:hardwareAccelerated="true"
+46-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:8:7-41
+47        android:icon="@mipmap/app_icon_2"
+47-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:9:7-40
+48        android:label="@string/app_name"
+48-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:10:7-39
+49        android:largeHeap="true"
+49-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:11:7-31
+50        android:theme="@style/MyAppTheme"
+50-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:12:7-40
+51        android:usesCleartextTraffic="true" >
+51-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:13:7-42
+52        <meta-data
+52-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:15:5-17:29
+53            android:name="iap:api_version"
+53-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:16:9-39
+54            android:value="5" />
+54-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:17:9-26
+55        <meta-data
+55-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:19:5-21:40
+56            android:name="iap:view_option"
+56-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:20:9-39
+57            android:value="popup | full" />
+57-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:21:9-37
+58
+59        <!-- ACTIVITY -->
+60        <activity
+60-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:24:5-46:16
+61            android:name="com.idevel.tatalk.activity.MainActivity"
+61-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:25:9-63
+62            android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize|fontScale|smallestScreenSize|screenLayout"
+62-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:26:9-135
+63            android:label="@string/app_name"
+63-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:27:9-41
+64            android:launchMode="singleTask"
+64-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:28:9-40
+65            android:screenOrientation="portrait"
+65-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:29:9-45
+66            android:windowSoftInputMode="adjustResize" >
+66-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:30:9-51
+67            <intent-filter>
+67-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:31:7-34:23
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:32:9-61
+68-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:32:17-58
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:33:9-69
+70-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:33:19-66
+71            </intent-filter>
+72            <intent-filter>
+72-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:35:7-45:23
+73                <action android:name="android.intent.action.VIEW" />
+73-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:36:9-61
+73-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:36:17-58
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:38:9-68
+75-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:38:19-65
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:39:9-70
+76-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:39:19-67
+77
+78                <!-- scheme -->
+79                <data
+79-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:42:9-44:46
+80                    android:host="show-app"
+80-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:43:13-36
+81                    android:scheme="idevel-tatalk" />
+81-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:44:13-43
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:48:5-53:55
+85            android:name="com.idevel.tatalk.activity.PushPopupActivity"
+85-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:49:9-68
+86            android:excludeFromRecents="true"
+86-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:50:9-42
+87            android:screenOrientation="unspecified"
+87-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:51:9-48
+88            android:taskAffinity="com.medialog.umobi.pushPopup"
+88-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:52:9-60
+89            android:theme="@android:style/Theme.Dialog" />
+89-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:53:9-52
+90
+91        <!-- DEV -->
+92        <activity
+92-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:56:5-58:55
+93            android:name="com.idevel.tatalk.activity.DevActivity"
+93-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:57:9-62
+94            android:theme="@style/Base.Theme.AppCompat" />
+94-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:58:9-52
+95
+96        <!-- RECEIVER -->
+97        <!-- Network change receiver -->
+98        <meta-data
+98-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:62:5-64:65
+99            android:name="com.google.android.gms.version"
+99-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:63:9-54
+100            android:value="@integer/google_play_services_version" />
+100-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:64:9-62
+101
+102        <!-- DataSaver change receiver -->
+103        <receiver
+103-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:67:5-71:52
+104            android:name="com.idevel.tatalk.broadcast.DataSaverChangeReceiver"
+104-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:68:9-75
+105            android:enabled="true"
+105-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:69:9-31
+106            android:exported="false"
+106-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:70:9-33
+107            android:label="DataSaverChange" />
+107-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:71:9-40
+108
+109        <!-- Network Change receiver -->
+110        <receiver android:name="com.idevel.tatalk.broadcast.NetworkChangeReceiver" >
+110-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:74:5-78:16
+110-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:74:15-79
+111            <intent-filter>
+111-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:75:7-77:23
+112                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+112-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:76:9-83
+112-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:76:17-80
+113            </intent-filter>
+114        </receiver>
+115
+116        <!-- SERVICE -->
+117        <service
+117-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:81:5-88:15
+118            android:name="com.idevel.tatalk.fcm.FcmInstanceIDService"
+118-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:82:9-66
+119            android:enabled="true"
+119-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:83:9-31
+120            android:exported="true" >
+120-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:84:9-32
+121            <intent-filter>
+121-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:85:7-87:23
+122                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+122-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:86:9-72
+122-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:86:17-69
+123            </intent-filter>
+124        </service>
+125        <service
+125-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:90:5-96:15
+126            android:name="com.idevel.tatalk.fcm.FcmListenerService"
+126-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:91:9-64
+127            android:exported="false" >
+127-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:92:9-33
+128            <intent-filter>
+128-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:93:7-95:23
+129                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+129-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:94:9-70
+129-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:94:17-67
+130            </intent-filter>
+131        </service>
+132
+133        <!-- <receiver -->
+134        <!-- android:name=".fcm.GcmBroadcastReceiver" -->
+135        <!-- android:permission="com.google.android.c2dm.permission.SEND" > -->
+136        <!-- <intent-filter> -->
+137        <!-- &lt;!&ndash; Receives the actual messages. &ndash;&gt; -->
+138        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+139        <!-- <category android:name="com.google.android.gcm.demo.app" /> -->
+140        <!-- </intent-filter> -->
+141        <!-- </receiver> -->
+142
+143
+144        <!--
+145             FirebaseMessagingService performs security checks at runtime,
+146             no need for explicit permissions despite exported="true"
+147        -->
+148        <service
+148-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/6bdae8375bffd999e33409f43790de13/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:28:9-34:19
+149            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+149-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/6bdae8375bffd999e33409f43790de13/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:29:13-82
+150            android:exported="true" >
+150-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/6bdae8375bffd999e33409f43790de13/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:30:13-36
+151            <intent-filter android:priority="-500" >
+151-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:93:7-95:23
+152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+152-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:94:9-70
+152-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:94:17-67
+153            </intent-filter>
+154        </service>
+155
+156        <receiver
+156-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:29:9-33:20
+157            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+157-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:30:13-85
+158            android:enabled="true"
+158-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:31:13-35
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:32:13-37
+160        </receiver>
+161
+162        <service
+162-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:35:9-38:40
+163            android:name="com.google.android.gms.measurement.AppMeasurementService"
+163-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:36:13-84
+164            android:enabled="true"
+164-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:37:13-35
+165            android:exported="false" />
+165-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/0285b2cfe5267028cb7ae1049860f8d9/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:38:13-37
+166
+167        <receiver
+167-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:35:9-44:20
+168            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+168-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:36:13-78
+169            android:exported="true"
+169-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:37:13-36
+170            android:permission="com.google.android.c2dm.permission.SEND" >
+170-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:38:13-73
+171            <intent-filter>
+171-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:39:13-43:29
+172                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+172-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:17-81
+172-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:25-78
+173
+174                <category android:name="com.idevel.tatalk" />
+174-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:17-61
+174-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:27-58
+175            </intent-filter>
+176        </receiver>
+177        <!--
+178             FirebaseInstanceIdService performs security checks at runtime,
+179             no need for explicit permissions despite exported="true"
+180        -->
+181        <service
+181-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:50:9-56:19
+182            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+182-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:51:13-77
+183            android:exported="true" >
+183-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/a0371ee85621c97a8c1dc741fc1488de/jetified-firebase-iid-15.0.0/AndroidManifest.xml:52:13-36
+184            <intent-filter android:priority="-500" >
+184-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:85:7-87:23
+185                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+185-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:86:9-72
+185-->/Users/jjbae/Desktop/backup/tatalk/app/src/main/AndroidManifest.xml:86:17-69
+186            </intent-filter>
+187        </service>
+188
+189        <provider
+189-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/3fff7a74942ae0608bf476c4a91b6788/jetified-firebase-common-15.0.1/AndroidManifest.xml:8:9-12:39
+190            android:name="com.google.firebase.provider.FirebaseInitProvider"
+190-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/3fff7a74942ae0608bf476c4a91b6788/jetified-firebase-common-15.0.1/AndroidManifest.xml:9:13-77
+191            android:authorities="com.idevel.tatalk.firebaseinitprovider"
+191-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/3fff7a74942ae0608bf476c4a91b6788/jetified-firebase-common-15.0.1/AndroidManifest.xml:10:13-72
+192            android:exported="false"
+192-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/3fff7a74942ae0608bf476c4a91b6788/jetified-firebase-common-15.0.1/AndroidManifest.xml:11:13-37
+193            android:initOrder="100" />
+193-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/3fff7a74942ae0608bf476c4a91b6788/jetified-firebase-common-15.0.1/AndroidManifest.xml:12:13-36
+194
+195        <activity
+195-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/52b6e04df47dba0b2de36b23f0e9d750/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+196            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+196-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/52b6e04df47dba0b2de36b23f0e9d750/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/52b6e04df47dba0b2de36b23f0e9d750/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/52b6e04df47dba0b2de36b23f0e9d750/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+199    </application>
+200
+201</manifest>

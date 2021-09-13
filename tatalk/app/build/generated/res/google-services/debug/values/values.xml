@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">825275166644-ge8etlgihs9qvtq78713n8ffv8chbdod.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bottle-tok.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">825275166644</string>
+    <string name="google_api_key" translatable="false">AIzaSyB837iMSZp3bYBi5vyVe_-L2V-q67gDGhc</string>
+    <string name="google_app_id" translatable="false">1:825275166644:android:1267fd120a0cbc323d4ce1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB837iMSZp3bYBi5vyVe_-L2V-q67gDGhc</string>
+    <string name="google_storage_bucket" translatable="false">bottle-tok.appspot.com</string>
+    <string name="project_id" translatable="false">bottle-tok</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031053910919",
+    "project_id": "momschoice-5b201",
+    "storage_bucket": "momschoice-5b201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031053910919:android:2776f058d104c577162922",
+        "android_client_info": {
+          "package_name": "com.idevel.momschoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031053910919-rgnii39qhbn1qhgfv3c32pc6i05p5ibd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqftGS0-tjC12fvz6TUpdhdRMOPvwGKfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031053910919-rgnii39qhbn1qhgfv3c32pc6i05p5ibd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

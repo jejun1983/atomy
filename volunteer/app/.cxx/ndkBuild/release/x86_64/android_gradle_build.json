@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "public_keys-release-x86_64": {
+      "buildCommand": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib /Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libpublic_keys.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "public_keys",
+      "files": [
+        {
+          "src": "/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/public_keys.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -I/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libpublic_keys.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,153 @@
+<html>
+<head> 
+<meta charset="utf-8">
+<script type="text/javascript">
+    var user_id;
+    var jsondata;
+	var isAutoLoginEnabled;
+	var isUsageNotiEnabled;
+	var isAnserNotiEnabled;
+	var key;
+
+    function showSettingView() {
+        UmobiCustomerServiceApp.showSettingView();
+    }
+
+    function getUserId() {
+    	user_id = UmobiCustomerServiceApp.getUserId();
+    	document.getElementById('userId').value = user_id;
+    }
+    
+    function getAutoLoginEnabled() {
+    	isAutoLoginEnabled = UmobiCustomerServiceApp.getAutoLoginEnabled();
+    	document.getElementById('getAutoLogin').value = isAutoLoginEnabled;
+    }
+    
+    function setAutoLoginEnabled(isEnable) {
+		document.getElementById('getAutoLogin').value = isEnable;
+        UmobiCustomerServiceApp.setAutoLoginEnabled(isEnable);
+    }
+    
+    function getUsageNotiEnabled() {
+    	isUsageNotiEnabled = UmobiCustomerServiceApp.getUsageNotiEnabled();
+    	document.getElementById('getUsageNoti').value = isUsageNotiEnabled;
+    }
+    
+    function setUsageNotiEnabled(isEnable) {
+		document.getElementById('getUsageNoti').value = isEnable;
+        UmobiCustomerServiceApp.setUsageNotiEnabled(isEnable);
+    }
+    
+    function getAnserNotiEnabled() {
+    	isAnserNotiEnabled = UmobiCustomerServiceApp.getAnserNotiEnabled();
+    	document.getElementById('getAnserNoti').value = isAnserNotiEnabled;
+    }
+    
+    function setAnserNotiEnabled(isEnable) {
+		document.getElementById('getAnserNoti').value = isEnable;
+        UmobiCustomerServiceApp.setAnserNotiEnabled(isEnable);
+    }
+    
+	function showAnserNotification() {
+        UmobiCustomerServiceApp.showAnserNotification();
+    }
+    
+    function getUsageNotiKey() {
+    	key = UmobiCustomerServiceApp.getUsageNotiKey();
+    	document.getElementById('getUsageNotiKey').value = key;
+    }
+    
+    function setUsageNotiKey() {
+		key = document.getElementById('getUsageNotiKey').value;
+        UmobiCustomerServiceApp.setUsageNotiKey(key);
+    }
+
+    function initKey() {
+        key = "500052818307";
+        UmobiCustomerServiceApp.setUsageNotiKey(key);
+        
+        window.location.reload();
+    }
+    
+    function clearData() {
+		alert("clear");
+    }
+    
+    function restartApp() {
+        UmobiCustomerServiceApp.restartApp();
+    }
+    
+    function save() {
+    	user_id = document.getElementById('userId').value;
+    	jsondata = '{"user_id":"'+user_id+'","user_password":"pass_1234567890"}';
+        UmobiCustomerServiceApp.saveUserInfo(jsondata);
+        
+        key = document.getElementById('getUsageNotiKey').value;
+        UmobiCustomerServiceApp.setUsageNotiKey(key);
+        
+        window.location.reload();
+        alert("save");
+    }
+    
+    
+    function loadData() {
+    	user_id = document.getElementById('userId').value;
+    	getUserId();
+		getAutoLoginEnabled();
+		getUsageNotiEnabled();
+		getAnserNotiEnabled();
+		getUsageNotiKey();
+    }
+    
+    
+    function saveUserInfo() {
+    	user_id = document.getElementById('userId').value;
+    	
+    	jsondata = '{"user_id":"'+user_id+'","user_password":"pass_1234567890"}';
+    	
+        UmobiCustomerServiceApp.saveUserInfo(jsondata);
+    }
+    
+    function closeWindow() {
+		window.open("about:blank","_self").close();
+    }
+</script>
+
+</head>
+<style>
+	html	{height: 100%; background: #c72;}
+	body	{min-height: 100%; width: 300px; margin: 0 auto; /* center */ padding: 0 20px;
+		 border: 1px solid black; border-width: 0 1px;
+		 background: #eee;}
+</style>
+<body onload="loadData()">
+	<h1> test setting view </h1><br/><br/>
+	
+	user id : <input type="text" id="userId"/> <br/><hr>
+	
+    자동로그인 설정: <input type="text" id="getAutoLogin"/> <br/>
+    <input type="button" value="setAutoLogin Enabled" onClick="setAutoLoginEnabled(1)" />
+    <input type="button" value="setAutoLogin Disable" onClick="setAutoLoginEnabled(0)" /><br/><hr>
+    
+    알림 표시 설정: <input type="text" id="getUsageNoti"/> <br/>
+    <input type="button" value="setUsageNoti Enabled" onClick="setUsageNotiEnabled(1)" />
+    <input type="button" value="setUsageNoti Disable" onClick="setUsageNotiEnabled(0)" /><br/><hr>
+    
+    키값: <input type="text" id="getUsageNotiKey"/> <br/>
+    <input type="button" value="initKey" onClick="initKey()" /> <input type="button" value="getNotiKey" onClick="getUsageNotiKey()" /><br/><hr>
+    
+    답변 알림 표시 설정: <input type="text" id="getAnserNoti"/> <br/>
+    <input type="button" value="setAnserNoti Enabled" onClick="setAnserNotiEnabled(1)" />
+    <input type="button" value="setAnserNoti Disable" onClick="setAnserNotiEnabled(0)" /><br/>
+    <input type="button" value="showAnserNotiNotification" onClick="showAnserNotification()" /> <br/><hr>
+    
+    <input type="button" value="save data" onClick="save()" />
+    <input type="button" value="clear data" onClick="clearData()" />
+    
+    <input value="Cancel" name="closeWindow" type="button" onclick="closeWindow();" /> 
+    <input value="Cancel" name="self.close()" type="button" onclick="self.close();" /> 
+    
+    <input value="RestartApp" name="restartApp" type="button" onclick="restartApp()" /> 
+</body>
+
+</html> 

@@ -1,0 +1,2 @@
+[arm64-v8a] Compile        : public_keys <= public_keys.c
+[arm64-v8a] SharedLibrary  : libpublic_keys.so

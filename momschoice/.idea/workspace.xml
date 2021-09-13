@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="okhtt" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2f91a9e-f5a2-4b35-a109-52e90355f049" name="Default Changelist" comment="[jjbae]&#10;&#10;1. 상용 빌드" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[2b25e5d03a1c7ece]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momschoice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momschoice" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momschoice" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momschoice" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/keystore/momschoice_keystore" />
+    <option name="KEY_ALIAS" value="jjbae" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProjectId" id="1dyWAGXrFASdAcActo80oA6PsSG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="momschoice.app" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/tatalk/web/BaseWebView.kt_SELECTED" value="BaseWebView" />
+    <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/material/MaterialRippleLayout.java_SELECTED" value="MaterialRippleLayout" />
+    <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/web/BaseWebView.kt_SELECTED" value="BaseWebView" />
+    <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/widget/CharacterTextView.kt_SELECTED" value="CharacterTextView" />
+    <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/widget/ProgressView.kt_SELECTED" value="ProgressView" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../work/SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/tatalk/web/BaseWebView.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/material/MaterialRippleLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/web/BaseWebView.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/widget/CharacterTextView.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/widget/ProgressView.kt_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager" selected="Gradle.waterBottle:app [installRelease]">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="momschoice.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waterBottle:app [installDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installDebug" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="waterBottle:app [installRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="waterBottle:app [uninstallAll]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="waterBottle:app [uninstallDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallDebug" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.waterBottle:app [uninstallDebug]" />
+        <item itemvalue="Gradle.waterBottle:app [installRelease]" />
+        <item itemvalue="Gradle.waterBottle:app [installDebug]" />
+        <item itemvalue="Gradle.waterBottle:app [uninstallAll]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2f91a9e-f5a2-4b35-a109-52e90355f049" name="Default Changelist" comment="" />
+      <created>1593397667735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593397667735</updated>
+    </task>
+    <task id="LOCAL-00001" summary="[jjbae]&#10;&#10;1. camera, gallery 호춣 시 [type, param] 추가">
+      <created>1594257046040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594257046040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[jjbae]&#10;&#10;1. camera, gallery 파일 전송 시 [type, param] 추가">
+      <created>1594642949032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594642949032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[jjbae]&#10;&#10;1. text 글자 복사 방지">
+      <created>1594692488028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594692488028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[jjbae]&#10;&#10;1. 상용 빌드">
+      <created>1594776256034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594776256034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[jjbae]&#10;&#10;1. version update">
+      <created>1594886081030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594886081030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[jjbae]&#10;&#10;1. version update">
+      <created>1595304846047</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595304846048</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[jjbae]&#10;&#10;1. 채팅 중 push/noti 수신 제외">
+      <created>1595908261030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595908261030</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[jjbae]&#10;&#10;1. version update&#10;2. 스토어 이동 수정">
+      <created>1595919091031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595919091031</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[jjbae]&#10;&#10;1. google inapp add">
+      <created>1597276388028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597276388029</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[jjbae]&#10;&#10;1. code 정리">
+      <created>1597294621026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597294621026</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[jjbae]&#10;&#10;1. camera, gallery 호춣 시 [type, param] 추가" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. camera, gallery 파일 전송 시 [type, param] 추가" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. text 글자 복사 방지" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. 상용 빌드" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. version update" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. 채팅 중 push/noti 수신 제외" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. version update&#10;2. 스토어 이동 수정" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. google inapp add" />
+    <MESSAGE value="[jjbae]&#10;&#10;1. code 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[jjbae]&#10;&#10;1. code 정리" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="646" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1626871628581">
+      <screen x="0" y="25" width="1733" height="1095" />
+    </state>
+    <state x="646" y="292" key="#com.intellij.ide.util.MemberChooser/0.25.1733.1095@0.25.1733.1095" timestamp="1626871628581" />
+    <state x="-3840" y="-45" width="1733" height="1095" key="CommitChangelistDialog2" timestamp="1620308745508">
+      <screen x="-3840" y="-45" width="1920" height="1055" />
+    </state>
+    <state x="-3840" y="-45" key="CommitChangelistDialog2/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-3840.-45.1920.1055" timestamp="1620308745508" />
+    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1731.1095@0.25.1731.1095" timestamp="1620129732055" />
+    <state x="0" y="25" width="1733" height="1095" key="CommitChangelistDialog2/0.25.1733.1095@0.25.1733.1095" timestamp="1620133551970" />
+    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog" timestamp="1620293759294">
+      <screen x="0" y="25" width="1487" height="935" />
+    </state>
+    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@0.25.1486.935" timestamp="1620293546155" />
+    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@0.25.1487.935" timestamp="1620293759294" />
+    <state x="147" y="125" width="1528" height="895" key="DiffContextDialog/0.25.1727.1095@0.25.1727.1095" timestamp="1620130407448" />
+    <state x="147" y="125" width="1528" height="895" key="DiffContextDialog/0.25.1731.1095@0.25.1731.1095" timestamp="1620131178238" />
+    <state width="1343" height="104" key="GridCell.Tab.0.bottom" timestamp="1628585523730">
+      <screen x="0" y="25" width="1385" height="875" />
+    </state>
+    <state width="1878" height="136" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@-1920.-45.1920.1055" timestamp="1627015520576" />
+    <state width="1441" height="136" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1627005579500" />
+    <state width="1878" height="136" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1627019305573" />
+    <state width="1441" height="136" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@0.25.1485.935" timestamp="1627005827854" />
+    <state width="1878" height="237" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716458" />
+    <state width="1343" height="104" key="GridCell.Tab.0.bottom/0.25.1385.875@0.25.1385.875" timestamp="1628585523730" />
+    <state width="1345" height="104" key="GridCell.Tab.0.bottom/0.25.1387.875@0.25.1387.875" timestamp="1627391724801" />
+    <state width="1348" height="104" key="GridCell.Tab.0.bottom/0.25.1388.875@0.25.1388.875" timestamp="1627280410431" />
+    <state width="1345" height="104" key="GridCell.Tab.0.bottom/0.25.1390.875@0.25.1390.875" timestamp="1627393451847" />
+    <state width="1346" height="104" key="GridCell.Tab.0.bottom/0.25.1391.875@0.25.1391.875" timestamp="1627304095007" />
+    <state width="1691" height="170" key="GridCell.Tab.0.bottom/0.25.1727.1095@0.25.1727.1095" timestamp="1626873745890" />
+    <state width="1685" height="290" key="GridCell.Tab.0.bottom/0.25.1731.1095@0.25.1731.1095" timestamp="1620132500700" />
+    <state width="1691" height="170" key="GridCell.Tab.0.bottom/0.25.1733.1095@0.25.1733.1095" timestamp="1626871516218" />
+    <state width="1691" height="170" key="GridCell.Tab.0.bottom/0.25.1735.1095@0.25.1735.1095" timestamp="1626872079332" />
+    <state width="1343" height="104" key="GridCell.Tab.0.center" timestamp="1628585523730">
+      <screen x="0" y="25" width="1385" height="875" />
+    </state>
+    <state width="1878" height="136" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@-1920.-45.1920.1055" timestamp="1627015520575" />
+    <state width="1441" height="136" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1627005579499" />
+    <state width="1878" height="136" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1627019305573" />
+    <state width="1441" height="136" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@0.25.1485.935" timestamp="1627005827854" />
+    <state width="1878" height="237" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716457" />
+    <state width="1343" height="104" key="GridCell.Tab.0.center/0.25.1385.875@0.25.1385.875" timestamp="1628585523730" />
+    <state width="1345" height="104" key="GridCell.Tab.0.center/0.25.1387.875@0.25.1387.875" timestamp="1627391724801" />
+    <state width="1348" height="104" key="GridCell.Tab.0.center/0.25.1388.875@0.25.1388.875" timestamp="1627280410431" />
+    <state width="1345" height="104" key="GridCell.Tab.0.center/0.25.1390.875@0.25.1390.875" timestamp="1627393451846" />
+    <state width="1346" height="104" key="GridCell.Tab.0.center/0.25.1391.875@0.25.1391.875" timestamp="1627304095006" />
+    <state width="1691" height="170" key="GridCell.Tab.0.center/0.25.1727.1095@0.25.1727.1095" timestamp="1626873745890" />
+    <state width="1685" height="290" key="GridCell.Tab.0.center/0.25.1731.1095@0.25.1731.1095" timestamp="1620132500699" />
+    <state width="1691" height="170" key="GridCell.Tab.0.center/0.25.1733.1095@0.25.1733.1095" timestamp="1626871516217" />
+    <state width="1691" height="170" key="GridCell.Tab.0.center/0.25.1735.1095@0.25.1735.1095" timestamp="1626872079332" />
+    <state width="1343" height="104" key="GridCell.Tab.0.left" timestamp="1628585523730">
+      <screen x="0" y="25" width="1385" height="875" />
+    </state>
+    <state width="1878" height="136" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@-1920.-45.1920.1055" timestamp="1627015520575" />
+    <state width="1441" height="136" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1627005579499" />
+    <state width="1878" height="136" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1627019305572" />
+    <state width="1441" height="136" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@0.25.1485.935" timestamp="1627005827853" />
+    <state width="1878" height="237" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716456" />
+    <state width="1343" height="104" key="GridCell.Tab.0.left/0.25.1385.875@0.25.1385.875" timestamp="1628585523730" />
+    <state width="1345" height="104" key="GridCell.Tab.0.left/0.25.1387.875@0.25.1387.875" timestamp="1627391724800" />
+    <state width="1348" height="104" key="GridCell.Tab.0.left/0.25.1388.875@0.25.1388.875" timestamp="1627280410430" />
+    <state width="1345" height="104" key="GridCell.Tab.0.left/0.25.1390.875@0.25.1390.875" timestamp="1627393451846" />
+    <state width="1346" height="104" key="GridCell.Tab.0.left/0.25.1391.875@0.25.1391.875" timestamp="1627304095006" />
+    <state width="1388" height="777" key="GridCell.Tab.0.left/0.25.1392.875@0.25.1392.875" timestamp="1627282746975" />
+    <state width="1691" height="170" key="GridCell.Tab.0.left/0.25.1727.1095@0.25.1727.1095" timestamp="1626873745889" />
+    <state width="1685" height="290" key="GridCell.Tab.0.left/0.25.1731.1095@0.25.1731.1095" timestamp="1620132500699" />
+    <state width="1691" height="170" key="GridCell.Tab.0.left/0.25.1733.1095@0.25.1733.1095" timestamp="1626871516217" />
+    <state width="1691" height="170" key="GridCell.Tab.0.left/0.25.1735.1095@0.25.1735.1095" timestamp="1626872079331" />
+    <state width="1343" height="104" key="GridCell.Tab.0.right" timestamp="1628585523730">
+      <screen x="0" y="25" width="1385" height="875" />
+    </state>
+    <state width="1878" height="136" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@-1920.-45.1920.1055" timestamp="1627015520576" />
+    <state width="1441" height="136" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1627005579500" />
+    <state width="1878" height="136" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1627019305573" />
+    <state width="1441" height="136" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@0.25.1485.935" timestamp="1627005827854" />
+    <state width="1878" height="237" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716457" />
+    <state width="1343" height="104" key="GridCell.Tab.0.right/0.25.1385.875@0.25.1385.875" timestamp="1628585523730" />
+    <state width="1345" height="104" key="GridCell.Tab.0.right/0.25.1387.875@0.25.1387.875" timestamp="1627391724801" />
+    <state width="1348" height="104" key="GridCell.Tab.0.right/0.25.1388.875@0.25.1388.875" timestamp="1627280410431" />
+    <state width="1345" height="104" key="GridCell.Tab.0.right/0.25.1390.875@0.25.1390.875" timestamp="1627393451847" />
+    <state width="1346" height="104" key="GridCell.Tab.0.right/0.25.1391.875@0.25.1391.875" timestamp="1627304095007" />
+    <state width="1691" height="170" key="GridCell.Tab.0.right/0.25.1727.1095@0.25.1727.1095" timestamp="1626873745890" />
+    <state width="1685" height="290" key="GridCell.Tab.0.right/0.25.1731.1095@0.25.1731.1095" timestamp="1620132500700" />
+    <state width="1691" height="170" key="GridCell.Tab.0.right/0.25.1733.1095@0.25.1733.1095" timestamp="1626871516218" />
+    <state width="1691" height="170" key="GridCell.Tab.0.right/0.25.1735.1095@0.25.1735.1095" timestamp="1626872079332" />
+    <state x="22" y="92" width="1205" height="725" key="find.popup" timestamp="1627303803709">
+      <screen x="0" y="25" width="1391" height="875" />
+    </state>
+    <state x="-1889" y="36" width="1661" height="874" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@-1920.-45.1920.1055" timestamp="1627006352564" />
+    <state x="24" y="97" width="1282" height="774" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620287831123" />
+    <state x="-1889" y="36" width="1661" height="874" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620706143607" />
+    <state x="-3809" y="36" width="1661" height="874" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-3840.-45.1920.1055" timestamp="1620308973061" />
+    <state x="24" y="97" width="1285" height="774" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@0.25.1486.935" timestamp="1620293593679" />
+    <state x="22" y="92" width="1202" height="725" key="find.popup/0.25.1388.875@0.25.1388.875" timestamp="1627280371907" />
+    <state x="22" y="92" width="1203" height="725" key="find.popup/0.25.1390.875@0.25.1390.875" timestamp="1627280281926" />
+    <state x="22" y="92" width="1205" height="725" key="find.popup/0.25.1391.875@0.25.1391.875" timestamp="1627303803709" />
+    <state x="96" y="153" width="1275" height="901" key="find.popup/0.25.1731.1095@0.25.1731.1095" timestamp="1620132244836" />
+    <state x="28" y="109" width="1497" height="906" key="find.popup/0.25.1733.1095@0.25.1733.1095" timestamp="1620134223663" />
+  </component>
+</project>

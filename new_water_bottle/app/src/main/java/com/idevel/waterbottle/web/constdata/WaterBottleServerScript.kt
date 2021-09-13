@@ -1,0 +1,17 @@
+package com.idevel.waterbottle.web.constdata
+
+/**
+ * The MusicServerScript
+ * @company : medialog
+ * @author  : jjbae
+ */
+enum class WaterBottleServerScript(val scriptName: String) {
+    GET_GPS_INFO("getGpsInfo"),
+    GET_PUSH_REG_ID("getPushRegId"),
+    GET_APP_VERSION("getAppVersion"),
+
+    GET_READT_ONESTORE_BILLING_INFO("readyOneStoreBilling"),
+    GET_REQUEST_BUY_PRODUCT_INFO("requestBuyProduct"),
+
+    GET_REQUEST_FILE_UPLOAD_INFO("requestFileUploadInfo")
+}

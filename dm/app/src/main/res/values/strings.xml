@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"동명엔터프라이즈"</string>
+    <string name="noti_channel_name_push">"푸시 알림"</string>
+    <string name="toast_backkey">"뒤로 버튼을 한 번 더 누르시면 종료됩니다."</string>
+    <string name="error_msg">"서비스 제공에 일시적으로 문제가 생겼습니다.\n잠시 후 다시 이용해 주세요."</string>
+    <string name="popup_title_server_error">"서버 알림"</string>
+    <string name="popup_msg_server_error">"죄송합니다.\n현재 서버 상태가 원활하지 못합니다.\n잠시 후 다시 접속하여 주시기 바랍니다.\n감사합니다."</string>
+    <string name="popup_title_network_error">"네트워크 알림"</string>
+    <string name="popup_msg_network_error">"죄송합니다.\n현재 네트워크에 접속되지 않았습니다.\n무선인터넷 연결이 가능하게 휴대폰 설정을 확인하시고 다시 접속하여 주시기 바랍니다.\n감사합니다."</string>
+    <string name="popup_title_other_version">"업데이트 알림"</string>
+    <string name="popup_msg_other_version">"동명엔터프라이즈 앱이 업데이트되었습니다.\n사용을 위해 반드시\n업데이트 후 사용해 주세요."</string>
+    <string name="popup_msg_other_version2">"동명엔터프라이즈 앱이 업데이트되었습니다.\n보다 편리한 사용을 위해\n업데이트 후 사용해 주세요."</string>
+    <string name="popup_msg_error_version">"서버와 통신이 원활하지 않습니다.\n잠시 후 다시 이용해 주시기 바랍니다."</string>
+    <string name="popup_btn_ok">"확인"</string>
+    <string name="popup_btn_close">"닫기"</string>
+    <string name="popup_btn_now">"업데이트"</string>
+    <string name="popup_btn_later">"나중에"</string>
+    <string name="permission_view_title">"동명엔터프라이즈 APP 사용을 위해\n권한 허용이 필요합니다."</string>
+    <string name="permission_btn_ok">"동의"</string>
+    <string name="permission_btn_cancel">"종료"</string>
+    <string name="warnning_data_save">"데이터 세이버가 켜져 있습니다."</string>
+    <string name="popup_title_data_save">"데이터 세이버 해제 알림"</string>
+    <string name="popup_msg_data_save">"동명엔터프라이즈 이용은\n\'설정 > 데이터 세이버 미적용 앱\'\n전환 후 사용 가능합니다."</string>
+    <string name="popup_btn_ok_dta_save">"설정"</string>
+    <string name="popup_btn_cancel_dta_save">"앱 종료"</string>
+    <string name="permissionDeny_title">"알림"</string>
+    <string name="permissionDeny_msg">"필수 권한에 접근을 허용해야 이용할 수 있습니다.\n'앱 정보 > 권한'에서 허용 여부를 확인해 주세요."</string>
+    <string name="usim_mount_error_title">"유심 미장착"</string>
+    <string name="usim_mount_error_msg">"유심을 장착해야 앱을 사용할 수 있습니다."</string>
+
+
+
+    <string name="popup_app_finish_cancel">"아니오"</string>
+    <string name="popup_app_finish_ok">"예"</string>
+    <string name="popup_app_finish_message">"종료하시겠습니까?"</string>
+
+
+<!--in app-->
+    <string name="msg_purchase_success_inapp">
+        <![CDATA[
+            결제에 성공했습니다.<br/>
+            <b>구매 상품 : %1$d coins</b><br/><br/>
+            Paid successfully.<br/>
+            You bought %1$d coins.
+        ]]>
+    </string>
+    <string name="msg_purchase_success_auto">
+        <![CDATA[
+            결제에 성공했습니다.<br/>
+            <b>구매 상품 : Unlimited play(월정액)</b><br/><br/>
+            Paid successfully.<br/>
+            You bought Unlimited play(subscription).
+        ]]>
+    </string>
+
+    <string name="desc_setting_auto_purchased_ko">월정액 상품에 가입되어 있습니다.</string>
+    <string name="desc_setting_auto_purchased_en">You purchased the subscription.</string>
+
+    <string name="msg_setting_cancel_auto_complete">월정액 상품이 해지 예약되었습니다. 다음 결제일 전까지 이용이 가능하며, 이후 해지가 완료됩니다. \n\nSubscription canceled successfully. You will still enjoy for the remainder of your billing period.</string>
+    <string name="msg_setting_resubscribe_auto_alert">월정액 해지 예약을 취소 하시겠습니까?\n\nDo you want to resubscribe?</string>
+    <string name="msg_setting_resubscribe_auto_complete">월정액 해지 예약이 취소되었습니다.\n\nYour resubscription has been processed successfully.</string>
+    <string name="msg_alert_no_coin">보유 코인이 부족합니다.\n코인을 구매하시겠습니까?\n\nNot enough coins. Do you want to buy coins?</string>
+    <string name="msg_alert_dev_payload_invalid">Devloper payload 정보가 유효하지 않습니다.\n\nDevloper payload information is invalid.</string>
+    <string name="msg_alert_signature_invalid">Signature 정보가 유효하지 않습니다.\n\nSignature information is invalid.</string>
+</resources>

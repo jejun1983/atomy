@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":2,"versionName":"1.1.0","enabled":true,"outputFile":"./idevel_tatalk1.1.0_debug_210712.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.idevel.tatalk","split":"","minSdkVersion":"19"}}]

@@ -1,0 +1,13 @@
+Executable : /Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=0
+APP_PLATFORM=android-19
+NDK_OUT=/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib
+public_keys
+jvmArgs : 
+

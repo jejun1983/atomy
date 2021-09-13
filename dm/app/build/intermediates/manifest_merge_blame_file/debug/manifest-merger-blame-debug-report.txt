@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.idevel.dongmyung"
+4    android:versionCode="2"
+5    android:versionName="1.1.0" > <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+6    <uses-sdk
+7        android:minSdkVersion="19"
+7-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:112:3-65
+10-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:112:20-62
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:113:3-79
+11-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:113:20-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:114:3-77
+12-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:114:20-74
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:115:3-66
+13-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:115:20-63
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:116:3-64
+14-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:116:20-61
+15
+16    <!-- 필수권한 -->
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:119:3-73
+17-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:119:20-70
+18
+19    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" />&lt;!&ndash;  contacts 관리 &ndash;&gt; -->
+20    <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS" /> -->
+21
+22    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+22-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:124:3-69
+22-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:124:20-66
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 현재 기기 위치 -->
+23-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:126:3-77
+23-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:126:20-74
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:127:3-79
+24-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:127:20-76
+25    <uses-permission android:name="android.permission.CAMERA" /> <!-- 사진 찍기, 비디오 녹화 -->
+25-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:129:3-63
+25-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:129:20-60
+26
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 사진, 미디어 파일 접근 -->
+27-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:131:3-78
+27-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:131:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:132:3-79
+28-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:132:20-76
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:135:3-74
+29-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:135:20-71
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:5-110
+30-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:22-107
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:22-79
+32
+33    <permission
+33-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:28:5-30:47
+34        android:name="com.idevel.dongmyung.permission.C2D_MESSAGE"
+34-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:29:9-63
+35        android:protectionLevel="signature" />
+35-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:30:9-44
+36
+37    <uses-permission android:name="com.idevel.dongmyung.permission.C2D_MESSAGE" />
+37-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:5-79
+37-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:22-76
+38
+39    <application
+39-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:5:3-110:17
+40        android:name="com.idevel.dongmyung.MyApplication"
+40-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:6:7-56
+41        android:allowBackup="false"
+41-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:7:7-34
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c42640b9f72e115ebb9b0a5bad5c65bd/core-1.0.1/AndroidManifest.xml:22:18-86
+43        android:debuggable="true"
+44        android:hardwareAccelerated="true"
+44-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:8:7-41
+45        android:icon="@mipmap/app_icon_3"
+45-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:9:7-40
+46        android:label="@string/app_name"
+46-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:10:7-39
+47        android:largeHeap="true"
+47-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:11:7-31
+48        android:theme="@style/MyAppTheme"
+48-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:12:7-40
+49        android:usesCleartextTraffic="true" >
+49-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:13:7-42
+50        <meta-data
+50-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:15:5-17:29
+51            android:name="iap:api_version"
+51-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:16:9-39
+52            android:value="5" />
+52-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:17:9-26
+53        <meta-data
+53-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:19:5-21:40
+54            android:name="iap:view_option"
+54-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:20:9-39
+55            android:value="popup | full" />
+55-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:21:9-37
+56
+57        <!-- ACTIVITY -->
+58        <activity
+58-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:24:5-46:16
+59            android:name="com.idevel.dongmyung.activity.MainActivity"
+59-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:25:9-66
+60            android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize|fontScale|smallestScreenSize|screenLayout"
+60-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:26:9-135
+61            android:label="@string/app_name"
+61-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:27:9-41
+62            android:launchMode="singleTask"
+62-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:28:9-40
+63            android:screenOrientation="portrait"
+63-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:29:9-45
+64            android:windowSoftInputMode="adjustResize" >
+64-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:30:9-51
+65            <intent-filter>
+65-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:31:7-34:23
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:32:9-61
+66-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:32:17-58
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:33:9-69
+68-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:33:19-66
+69            </intent-filter>
+70            <intent-filter>
+70-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:35:7-45:23
+71                <action android:name="android.intent.action.VIEW" />
+71-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:36:9-61
+71-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:36:17-58
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:38:9-68
+73-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:38:19-65
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:39:9-70
+74-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:39:19-67
+75
+76                <!-- scheme -->
+77                <data
+77-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:42:9-44:49
+78                    android:host="show-app"
+78-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:43:13-36
+79                    android:scheme="idevel-dongmyung" />
+79-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:44:13-46
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:48:5-53:55
+83            android:name="com.idevel.dongmyung.activity.PushPopupActivity"
+83-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:49:9-71
+84            android:excludeFromRecents="true"
+84-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:50:9-42
+85            android:screenOrientation="unspecified"
+85-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:51:9-48
+86            android:taskAffinity="com.medialog.umobi.pushPopup"
+86-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:52:9-60
+87            android:theme="@android:style/Theme.Dialog" />
+87-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:53:9-52
+88
+89        <!-- DEV -->
+90        <activity
+90-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:56:5-58:55
+91            android:name="com.idevel.dongmyung.activity.DevActivity"
+91-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:57:9-65
+92            android:theme="@style/Base.Theme.AppCompat" />
+92-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:58:9-52
+93
+94        <!-- RECEIVER -->
+95        <!-- Network change receiver -->
+96        <meta-data
+96-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:62:5-64:65
+97            android:name="com.google.android.gms.version"
+97-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:63:9-54
+98            android:value="@integer/google_play_services_version" />
+98-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:64:9-62
+99
+100        <!-- DataSaver change receiver -->
+101        <receiver
+101-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:67:5-71:52
+102            android:name="com.idevel.dongmyung.broadcast.DataSaverChangeReceiver"
+102-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:68:9-78
+103            android:enabled="true"
+103-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:69:9-31
+104            android:exported="false"
+104-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:70:9-33
+105            android:label="DataSaverChange" />
+105-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:71:9-40
+106
+107        <!-- Network Change receiver -->
+108        <receiver android:name="com.idevel.dongmyung.broadcast.NetworkChangeReceiver" >
+108-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:74:5-78:16
+108-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:74:15-82
+109            <intent-filter>
+109-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:75:7-77:23
+110                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+110-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:76:9-83
+110-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:76:17-80
+111            </intent-filter>
+112        </receiver>
+113
+114        <!-- SERVICE -->
+115        <service
+115-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:81:5-88:15
+116            android:name="com.idevel.dongmyung.fcm.FcmInstanceIDService"
+116-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:82:9-69
+117            android:enabled="true"
+117-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:83:9-31
+118            android:exported="true" >
+118-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:84:9-32
+119            <intent-filter>
+119-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:85:7-87:23
+120                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+120-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:86:9-72
+120-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:86:17-69
+121            </intent-filter>
+122        </service>
+123        <service
+123-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:90:5-96:15
+124            android:name="com.idevel.dongmyung.fcm.FcmListenerService"
+124-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:91:9-67
+125            android:exported="false" >
+125-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:92:9-33
+126            <intent-filter>
+126-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:93:7-95:23
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:94:9-70
+127-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:94:17-67
+128            </intent-filter>
+129        </service>
+130
+131        <!-- <receiver -->
+132        <!-- android:name=".fcm.GcmBroadcastReceiver" -->
+133        <!-- android:permission="com.google.android.c2dm.permission.SEND" > -->
+134        <!-- <intent-filter> -->
+135        <!-- &lt;!&ndash; Receives the actual messages. &ndash;&gt; -->
+136        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+137        <!-- <category android:name="com.google.android.gcm.demo.app" /> -->
+138        <!-- </intent-filter> -->
+139        <!-- </receiver> -->
+140
+141
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             no need for explicit permissions despite exported="true"
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:28:9-34:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:29:13-82
+148            android:exported="true" >
+148-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:30:13-36
+149            <intent-filter android:priority="-500" >
+149-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:93:7-95:23
+150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+150-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:94:9-70
+150-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:94:17-67
+151            </intent-filter>
+152        </service>
+153
+154        <receiver
+154-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:29:9-33:20
+155            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+155-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:30:13-85
+156            android:enabled="true"
+156-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:31:13-35
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:32:13-37
+158        </receiver>
+159
+160        <service
+160-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:35:9-38:40
+161            android:name="com.google.android.gms.measurement.AppMeasurementService"
+161-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:36:13-84
+162            android:enabled="true"
+162-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:37:13-35
+163            android:exported="false" />
+163-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:38:13-37
+164
+165        <receiver
+165-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:35:9-44:20
+166            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+166-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:36:13-78
+167            android:exported="true"
+167-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:37:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:38:13-73
+169            <intent-filter>
+169-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:39:13-43:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:17-81
+170-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:25-78
+171
+172                <category android:name="com.idevel.dongmyung" />
+172-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:17-61
+172-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:27-58
+173            </intent-filter>
+174        </receiver>
+175        <!--
+176             FirebaseInstanceIdService performs security checks at runtime,
+177             no need for explicit permissions despite exported="true"
+178        -->
+179        <service
+179-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:50:9-56:19
+180            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+180-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:51:13-77
+181            android:exported="true" >
+181-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:52:13-36
+182            <intent-filter android:priority="-500" >
+182-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:85:7-87:23
+183                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+183-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:86:9-72
+183-->/Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:86:17-69
+184            </intent-filter>
+185        </service>
+186
+187        <provider
+187-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:8:9-12:39
+188            android:name="com.google.firebase.provider.FirebaseInitProvider"
+188-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:9:13-77
+189            android:authorities="com.idevel.dongmyung.firebaseinitprovider"
+189-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:10:13-72
+190            android:exported="false"
+190-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:11:13-37
+191            android:initOrder="100" />
+191-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:12:13-36
+192
+193        <activity
+193-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+194            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+194-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+197    </application>
+198
+199</manifest>

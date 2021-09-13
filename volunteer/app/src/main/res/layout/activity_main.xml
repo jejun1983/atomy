@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idevel.volunteer.activity.MainActivity">
+
+  <ProgressBar
+      android:id="@+id/webview_progress"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="-7dp"
+      android:visibility="visible" />
+
+  <RelativeLayout
+      android:id="@+id/webview_sub"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:visibility="gone" />
+
+
+  <com.idevel.volunteer.web.BaseWebView
+      android:id="@+id/webview_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:focusable="true"
+      android:focusableInTouchMode="true" />
+
+  <Button
+      android:id="@+id/billing_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="50dp"
+      android:text="정기 결제"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/billing_single_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="50dp"
+      android:layout_toLeftOf="@id/billing_test_btn"
+      android:text="단건 결제"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/camera_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="150dp"
+      android:text="카메라"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/gallery_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="150dp"
+      android:layout_toLeftOf="@id/camera_test_btn"
+      android:text="갤러리"
+      android:visibility="gone" />
+
+
+  <include
+      android:id="@+id/view_error"
+      layout="@layout/view_error"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone" />
+
+  <include
+      android:id="@+id/view_splash"
+      layout="@layout/view_splash"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  <include
+      android:id="@+id/view_permissioin"
+      layout="@layout/view_permission"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone" />
+
+</RelativeLayout>

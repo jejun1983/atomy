@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "public_keys-release-x86": {
+      "artifactName": "public_keys",
+      "buildCommand": "/Users/jjbae/Desktop/work/SDK/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jjbae/Desktop/backup/volunteer/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/lib /Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local/x86/libpublic_keys.so",
+      "abi": "x86",
+      "output": "/Users/jjbae/Desktop/backup/volunteer/app/build/intermediates/ndkBuild/release/obj/local/x86/libpublic_keys.so"
+    }
+  }
+}

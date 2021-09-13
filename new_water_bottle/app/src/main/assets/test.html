@@ -1,0 +1,24 @@
+
+<input type="button" value="showSettingView" onClick="showSettingView()" />
+
+<input type="button" value="saveUserInfo" onClick="saveUserInfo(s)" />
+
+<input value="RestartApp" name="restartApp" type="button" onclick="restartApp()" /> 
+
+<script type="text/javascript">
+
+    var s = '{"user_id":"id_jykim","user_password":"pass_1234567890", "user_phone_numbers":[{"number":"010-1*3*-5*7*","key":"1"},{"number":"010-2*9*-0*7*","key":"2"}]}';
+
+
+    function showSettingView() {
+        UmobiCustomerServiceApp.showSettingView();
+    }
+    function saveUserInfo(jsondata) {
+        UmobiCustomerServiceApp.saveUserInfo(jsondata);
+    }
+    
+        function restartApp() {
+		UmobiCustomerServiceApp.restartApp()
+    }
+    
+</script>

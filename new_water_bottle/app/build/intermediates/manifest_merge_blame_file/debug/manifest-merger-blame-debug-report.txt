@@ -1,0 +1,352 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.idevel.waterbottle"
+4    android:versionCode="6"
+5    android:versionName="1.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:112:3-65
+11-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:112:20-62
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:113:3-79
+12-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:113:20-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:114:3-77
+13-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:114:20-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:115:3-66
+14-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:115:20-63
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:116:3-64
+15-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:116:20-61
+16
+17    <!-- 필수권한 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:119:3-73
+18-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:119:20-70
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:120:3-70
+19-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:120:20-67
+20    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+20-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:121:3-71
+20-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:121:20-68
+21    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+21-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:122:3-69
+21-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:122:20-66
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:123:3-77
+22-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:123:20-74
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:124:3-79
+23-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:124:20-76
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:125:3-63
+24-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:125:20-60
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:126:3-78
+25-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:126:20-75
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:127:3-79
+26-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:127:20-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:130:3-74
+27-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:130:20-71
+28    <uses-permission android:name="com.android.vending.BILLING" />
+28-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:131:3-65
+28-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:131:20-62
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:5-110
+29-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:26:22-107
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:26:22-79
+31
+32    <permission
+32-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:28:5-30:47
+33        android:name="com.idevel.waterbottle.permission.C2D_MESSAGE"
+33-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:29:9-63
+34        android:protectionLevel="signature" />
+34-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:30:9-44
+35
+36    <uses-permission android:name="com.idevel.waterbottle.permission.C2D_MESSAGE" />
+36-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:5-79
+36-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:32:22-76
+37
+38    <application
+38-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:5:3-110:17
+39        android:name="com.idevel.waterbottle.MyApplication"
+39-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:6:7-36
+40        android:allowBackup="false"
+40-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:7:7-34
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c42640b9f72e115ebb9b0a5bad5c65bd/core-1.0.1/AndroidManifest.xml:22:18-86
+42        android:debuggable="true"
+43        android:hardwareAccelerated="true"
+43-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:8:7-41
+44        android:icon="@mipmap/app_icon"
+44-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:9:7-38
+45        android:label="@string/app_name"
+45-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:10:7-39
+46        android:largeHeap="true"
+46-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:11:7-31
+47        android:theme="@style/MyAppTheme"
+47-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:12:7-40
+48        android:usesCleartextTraffic="true" >
+48-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:13:7-42
+49        <meta-data
+49-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:15:5-17:29
+50            android:name="iap:api_version"
+50-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:16:9-39
+51            android:value="5" />
+51-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:17:9-26
+52        <meta-data
+52-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:19:5-21:40
+53            android:name="iap:view_option"
+53-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:20:9-39
+54            android:value="popup | full" />
+54-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:21:9-37
+55
+56        <!-- ACTIVITY -->
+57        <activity
+57-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:24:5-46:16
+58            android:name="com.idevel.waterbottle.activity.MainActivity"
+58-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:25:9-46
+59            android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize|fontScale|smallestScreenSize|screenLayout"
+59-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:26:9-135
+60            android:label="@string/app_name"
+60-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:27:9-41
+61            android:launchMode="singleTask"
+61-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:28:9-40
+62            android:screenOrientation="portrait"
+62-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:29:9-45
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:30:9-51
+64            <intent-filter>
+64-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:31:7-34:23
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:32:9-61
+65-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:32:17-58
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:33:9-69
+67-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:33:19-66
+68            </intent-filter>
+69            <intent-filter>
+69-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:35:7-45:23
+70                <action android:name="android.intent.action.VIEW" />
+70-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:36:9-61
+70-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:36:17-58
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:38:9-68
+72-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:38:19-65
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:39:9-70
+73-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:39:19-67
+74
+75                <!-- scheme -->
+76                <data
+76-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:42:9-44:51
+77                    android:host="show-app"
+77-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:43:13-36
+78                    android:scheme="idevel-waterbottle" />
+78-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:44:13-48
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:48:5-53:55
+82            android:name="com.idevel.waterbottle.activity.PushPopupActivity"
+82-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:49:9-51
+83            android:excludeFromRecents="true"
+83-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:50:9-42
+84            android:screenOrientation="unspecified"
+84-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:51:9-48
+85            android:taskAffinity="com.medialog.umobi.pushPopup"
+85-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:52:9-60
+86            android:theme="@android:style/Theme.Dialog" />
+86-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:53:9-52
+87
+88        <!-- DEV -->
+89        <activity
+89-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:56:5-58:55
+90            android:name="com.idevel.waterbottle.activity.DevActivity"
+90-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:57:9-45
+91            android:theme="@style/Base.Theme.AppCompat" />
+91-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:58:9-52
+92
+93        <!-- RECEIVER -->
+94        <!-- Network change receiver -->
+95        <meta-data
+95-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:62:5-64:65
+96            android:name="com.google.android.gms.version"
+96-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:63:9-54
+97            android:value="@integer/google_play_services_version" />
+97-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:64:9-62
+98
+99        <!-- DataSaver change receiver -->
+100        <receiver
+100-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:67:5-71:52
+101            android:name="com.idevel.waterbottle.broadcast.DataSaverChangeReceiver"
+101-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:68:9-58
+102            android:enabled="true"
+102-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:69:9-31
+103            android:exported="false"
+103-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:70:9-33
+104            android:label="DataSaverChange" />
+104-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:71:9-40
+105
+106        <!-- Network Change receiver -->
+107        <receiver android:name="com.idevel.waterbottle.broadcast.NetworkChangeReceiver" >
+107-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:74:5-78:16
+107-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:74:15-62
+108            <intent-filter>
+108-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:75:7-77:23
+109                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+109-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:76:9-83
+109-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:76:17-80
+110            </intent-filter>
+111        </receiver>
+112
+113        <!-- SERVICE -->
+114        <service
+114-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:81:5-88:15
+115            android:name="com.idevel.waterbottle.fcm.FcmInstanceIDService"
+115-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:82:9-49
+116            android:enabled="true"
+116-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:83:9-31
+117            android:exported="true" >
+117-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:84:9-32
+118            <intent-filter>
+118-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:85:7-87:23
+119                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+119-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:86:9-72
+119-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:86:17-69
+120            </intent-filter>
+121        </service>
+122        <service
+122-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:90:5-96:15
+123            android:name="com.idevel.waterbottle.fcm.FcmListenerService"
+123-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:91:9-47
+124            android:exported="false" >
+124-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:92:9-33
+125            <intent-filter>
+125-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:93:7-95:23
+126                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+126-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:94:9-70
+126-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:94:17-67
+127            </intent-filter>
+128        </service>
+129
+130        <!-- <receiver -->
+131        <!-- android:name=".fcm.GcmBroadcastReceiver" -->
+132        <!-- android:permission="com.google.android.c2dm.permission.SEND" > -->
+133        <!-- <intent-filter> -->
+134        <!-- &lt;!&ndash; Receives the actual messages. &ndash;&gt; -->
+135        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+136        <!-- <category android:name="com.google.android.gcm.demo.app" /> -->
+137        <!-- </intent-filter> -->
+138        <!-- </receiver> -->
+139
+140
+141        <!--
+142             FirebaseMessagingService performs security checks at runtime,
+143             no need for explicit permissions despite exported="true"
+144        -->
+145        <service
+145-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:28:9-34:19
+146            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+146-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:29:13-82
+147            android:exported="true" >
+147-->[com.google.firebase:firebase-messaging:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/ed9257c4417c40a5fbcc8ffd7292e679/jetified-firebase-messaging-15.0.0/AndroidManifest.xml:30:13-36
+148            <intent-filter android:priority="-500" >
+148-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:93:7-95:23
+149                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+149-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:94:9-70
+149-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:94:17-67
+150            </intent-filter>
+151        </service>
+152
+153        <receiver
+153-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:29:9-33:20
+154            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+154-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:30:13-85
+155            android:enabled="true"
+155-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:31:13-35
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:32:13-37
+157        </receiver>
+158
+159        <service
+159-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:35:9-38:40
+160            android:name="com.google.android.gms.measurement.AppMeasurementService"
+160-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:36:13-84
+161            android:enabled="true"
+161-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:37:13-35
+162            android:exported="false" />
+162-->[com.google.firebase:firebase-analytics-impl:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/c97c13929de7853f35b75b24864fb60f/jetified-firebase-analytics-impl-15.0.0/AndroidManifest.xml:38:13-37
+163
+164        <receiver
+164-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:35:9-44:20
+165            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+165-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:36:13-78
+166            android:exported="true"
+166-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:37:13-36
+167            android:permission="com.google.android.c2dm.permission.SEND" >
+167-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:38:13-73
+168            <intent-filter>
+168-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:39:13-43:29
+169                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+169-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:17-81
+169-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:40:25-78
+170
+171                <category android:name="com.idevel.waterbottle" />
+171-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:17-61
+171-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:42:27-58
+172            </intent-filter>
+173        </receiver>
+174        <!--
+175             FirebaseInstanceIdService performs security checks at runtime,
+176             no need for explicit permissions despite exported="true"
+177        -->
+178        <service
+178-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:50:9-56:19
+179            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+179-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:51:13-77
+180            android:exported="true" >
+180-->[com.google.firebase:firebase-iid:15.0.0] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/263bd1a96e8705f24a9c97db266569a1/jetified-firebase-iid-15.0.0/AndroidManifest.xml:52:13-36
+181            <intent-filter android:priority="-500" >
+181-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:85:7-87:23
+182                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+182-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:86:9-72
+182-->/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/new_water_bottle/app/src/main/AndroidManifest.xml:86:17-69
+183            </intent-filter>
+184        </service>
+185
+186        <provider
+186-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:8:9-12:39
+187            android:name="com.google.firebase.provider.FirebaseInitProvider"
+187-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:9:13-77
+188            android:authorities="com.idevel.waterbottle.firebaseinitprovider"
+188-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:10:13-72
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:11:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/2f18fb7b11dee121883829e32c888356/jetified-firebase-common-15.0.1/AndroidManifest.xml:12:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:15.0.1] /Users/jjbae/.gradle/caches/transforms-2/files-2.1/92de65416b8df182216dbdba5ca6b40e/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+196    </application>
+197
+198</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1031053910919-rgnii39qhbn1qhgfv3c32pc6i05p5ibd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1031053910919</string>
+    <string name="google_api_key" translatable="false">AIzaSyCqftGS0-tjC12fvz6TUpdhdRMOPvwGKfo</string>
+    <string name="google_app_id" translatable="false">1:1031053910919:android:2776f058d104c577162922</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCqftGS0-tjC12fvz6TUpdhdRMOPvwGKfo</string>
+    <string name="google_storage_bucket" translatable="false">momschoice-5b201.appspot.com</string>
+    <string name="project_id" translatable="false">momschoice-5b201</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "825275166644",
+    "firebase_url": "https://bottle-tok.firebaseio.com",
+    "project_id": "bottle-tok",
+    "storage_bucket": "bottle-tok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825275166644:android:1267fd120a0cbc323d4ce1",
+        "android_client_info": {
+          "package_name": "com.idevel.volunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825275166644-ge8etlgihs9qvtq78713n8ffv8chbdod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB837iMSZp3bYBi5vyVe_-L2V-q67gDGhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825275166644-ge8etlgihs9qvtq78713n8ffv8chbdod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
