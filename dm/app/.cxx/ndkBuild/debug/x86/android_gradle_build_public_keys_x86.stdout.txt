@@ -1,1 +1,2 @@
-make: Nothing to be done for 'public_keys'.
+[x86] Compile        : public_keys <= public_keys.c
+[x86] SharedLibrary  : libpublic_keys.so

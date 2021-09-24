@@ -5,10 +5,7 @@ import ApiManager
 import android.Manifest
 import android.app.Activity
 import android.app.KeyguardManager
-import android.content.ClipData
-import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
+import android.content.*
 import android.content.pm.PackageManager
 import android.database.Cursor
 import android.graphics.Bitmap
@@ -19,10 +16,7 @@ import android.location.LocationListener
 import android.location.LocationManager
 import android.net.ConnectivityManager
 import android.net.Uri
-import android.os.Build
-import android.os.Bundle
-import android.os.Handler
-import android.os.Message
+import android.os.*
 import android.provider.MediaStore
 import android.provider.Settings
 import android.view.KeyEvent
@@ -69,6 +63,7 @@ import java.lang.StringBuilder
 import java.lang.ref.WeakReference
 import java.net.URISyntaxException
 import java.net.URL
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.system.exitProcess
 
@@ -81,6 +76,7 @@ import kotlin.system.exitProcess
 class MainActivity : FragmentActivity()
 //        , BillingProcessor.IBillingHandler
 {
+
     private var mAgentPopupDialog: AgentPopupDialog? = null
     private var mSplashView: View? = null //초기 로딩시 보여주기 위한 view.
     private var mErrorView: View? = null //The network error view.
@@ -864,11 +860,14 @@ class MainActivity : FragmentActivity()
 
             PICK_FROM_CAMERA -> {
                 if (resultCode == Activity.RESULT_OK) {
-                    if (intent?.extras?.get("data") != null) {
-                        if (intent?.extras?.get("data") is Bitmap) {
-                            sendCameraImage(intent?.extras?.get("data") as Bitmap)
-                        }
-                    }
+//                    if (intent?.extras?.get("data") != null) {
+//                        if (intent?.extras?.get("data") is Bitmap) {
+//                            sendCameraImage(intent?.extras?.get("data") as Bitmap)
+//                        }
+//                    }
+
+                    sendCameraImage(photoURI!!)
+                    photoURI = null
                 }
             }
 
@@ -2106,7 +2105,22 @@ class MainActivity : FragmentActivity()
         val intent = Intent()
         intent.action = MediaStore.ACTION_IMAGE_CAPTURE
 
-        startActivityForResult(intent, PICK_FROM_CAMERA)
+        val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmss").format(Date())
+        val imageFileName = "JPEG_$timeStamp.jpg"
+
+        createImageUri(imageFileName, "image/jpg")?.let { uri ->
+            photoURI = uri
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
+            startActivityForResult(intent, PICK_FROM_CAMERA)
+        }
+    }
+
+    private var photoURI: Uri? = null
+    fun createImageUri(filename: String, mimeType: String): Uri? {
+        var values = ContentValues()
+        values.put(MediaStore.Images.Media.DISPLAY_NAME, filename)
+        values.put(MediaStore.Images.Media.MIME_TYPE, mimeType)
+        return contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values)
     }
 
     private fun sendGalleryImage(uri: Uri, index: Int = 0, totalCount: Int = 0) {
@@ -2119,10 +2133,15 @@ class MainActivity : FragmentActivity()
         }
     }
 
-    private fun sendCameraImage(bitmap: Bitmap) {
-        DLog.e("bjj camera sendCameraImage :: bitmap " + bitmap + " ^ " + getImageFile(getCaptureImageUri(bitmap)!!)?.absolutePath)
+//    private fun sendCameraImage(bitmap: Bitmap) {
+//        DLog.e("bjj camera sendCameraImage :: bitmap " + bitmap + " ^ " + getImageFile(getCaptureImageUri(bitmap)!!)?.absolutePath)
+//
+//        uploadFile(getImageFile(getCaptureImageUri(bitmap)!!)?.absolutePath)
+//    }
 
-        uploadFile(getImageFile(getCaptureImageUri(bitmap)!!)?.absolutePath)
+    private fun sendCameraImage(uri: Uri) {
+        DLog.e("bjj camera sendCameraImage :: path " + getImageFile(uri)?.absolutePath)
+        uploadFile(getImageFile(uri)?.absolutePath)
     }
 
     private fun resizeBitmapImageFn(bmpSource: Bitmap, maxResolution: Int): Bitmap? {
