@@ -132,9 +132,9 @@
 
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><!--  사진, 미디어 파일 접근-->
 
-  <uses-permission
-      android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-      android:maxSdkVersion="29" />
+<!--  <uses-permission-->
+<!--      android:name="android.permission.WRITE_EXTERNAL_STORAGE"-->
+<!--      android:maxSdkVersion="29" />-->
 
   <!--  MANAGE_EXTERNAL_STORAGE 이거 써야함 -->
 <!--  <uses-permission-->

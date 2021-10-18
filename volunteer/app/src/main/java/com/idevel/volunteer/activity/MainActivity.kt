@@ -996,15 +996,20 @@ class MainActivity : FragmentActivity()
                 override fun onPermissionsChecked(report: MultiplePermissionsReport) {
                     report.let {
                         DLog.e("bjj PERMISSION checkPermission onPermissionsChecked aa ==>> "
+                                + report.areAllPermissionsGranted() + " ^ "
                                 + it.areAllPermissionsGranted() + " ^ "
                                 + it.isAnyPermissionPermanentlyDenied
                         )
 
-                        if (it.areAllPermissionsGranted()) { // 모든 권한 허용
+                        if (report.areAllPermissionsGranted()) { // 모든 권한 허용
                             setMainView()
-                        } else if (it.isAnyPermissionPermanentlyDenied) {
+
+//                            Toast.makeText(this@MainActivity, "권한 모두 허용 : "+Build.VERSION.SDK_INT, Toast.LENGTH_SHORT).show()
+                        } else if (report.isAnyPermissionPermanentlyDenied) {
                             DLog.e("bjj PERMISSION checkPermission onPermissionsChecked bb ==>> "
                                     + Build.VERSION.SDK_INT)
+
+//                            Toast.makeText(this@MainActivity, "권한 거부 : "+Build.VERSION.SDK_INT, Toast.LENGTH_SHORT).show()
 
 //                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 //                                DLog.e("bjj PERMISSION checkPermission onPermissionsChecked bb ==>> "
@@ -1023,7 +1028,6 @@ class MainActivity : FragmentActivity()
                         } else {
                             finish()
                         }
-
                     }
                 }
 
@@ -1216,9 +1220,9 @@ class MainActivity : FragmentActivity()
         }
 
         override fun downloadFile(fileURL: String, fileName: String) {
-            (this@MainActivity as Activity).runOnUiThread {
-                testRecordDownload(fileURL, fileName)
-            }
+//            (this@MainActivity as Activity).runOnUiThread {
+//                testRecordDownload(fileURL, fileName)
+//            }
         }
     }
 
@@ -2294,131 +2298,131 @@ class MainActivity : FragmentActivity()
 
     private var recordDownloadTask: AsyncTask<Void, Void, Boolean>? = null
 
-    @SuppressLint("StaticFieldLeak")
-    private fun testRecordDownload(fileURL: String, fileName: String) {
-        val baseUrl = "https://1393kfsp.or.kr"
+//    @SuppressLint("StaticFieldLeak")
+//    private fun testRecordDownload(fileURL: String, fileName: String) {
+//        val baseUrl = "https://1393kfsp.or.kr"
+//
+//        mApiManager?.startRecordDownload(baseUrl, fileURL, object : OnResultListener<Any> {
+//            override fun onResult(result: Any, flag: Int) {
+//                recordDownloadTask?.cancel(true)
+//                recordDownloadTask = object : AsyncTask<Void, Void, Boolean>() {
+//                    override fun doInBackground(vararg voids: Void): Boolean {
+//                        return saveRecordFile(result as ResponseBody, fileName)
+//                    }
+//
+//                    override fun onPostExecute(result: Boolean?) {
+//                    }
+//                }
+//
+//                recordDownloadTask?.execute()
+//            }
+//
+//            override fun onFail(error: Any, flag: Int) {
+//            }
+//        })
+//    }
 
-        mApiManager?.startRecordDownload(baseUrl, fileURL, object : OnResultListener<Any> {
-            override fun onResult(result: Any, flag: Int) {
-                recordDownloadTask?.cancel(true)
-                recordDownloadTask = object : AsyncTask<Void, Void, Boolean>() {
-                    override fun doInBackground(vararg voids: Void): Boolean {
-                        return saveRecordFile(result as ResponseBody, fileName)
-                    }
-
-                    override fun onPostExecute(result: Boolean?) {
-                    }
-                }
-
-                recordDownloadTask?.execute()
-            }
-
-            override fun onFail(error: Any, flag: Int) {
-            }
-        })
-    }
-
-    @Synchronized
-    private fun saveRecordFile(body: ResponseBody, fileName: String): Boolean {
-        try {
-            val destinationFile: File
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-                val resolver: ContentResolver = getContentResolver()
-                val contentValues = ContentValues()
-                contentValues.put(MediaStore.MediaColumns.DISPLAY_NAME, fileName)
-                contentValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/png")
-                contentValues.put(MediaStore.MediaColumns.RELATIVE_PATH, "DCIM" + File.separator + "1393")
-                val fileUri: Uri? = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues)
-
-                destinationFile = File(fileUri?.path, "1393${File.separator}${fileName}")
-            } else {
-                val rootPath = Environment.getExternalStorageDirectory().absolutePath
-                val savedRootFilePath = "$rootPath${File.separator}Download${File.separator}"
-                val sohoDownloadFolder = File(savedRootFilePath, "${File.separator}1393")
-
-                if (!sohoDownloadFolder.exists()) {
-                    sohoDownloadFolder.mkdirs()
-                }
-
-                destinationFile = File(savedRootFilePath, "1393${File.separator}${fileName}")
-            }
-
-            var inputStream: InputStream? = null
-            var ost: OutputStream? = null
-
-            DLog.e("bjj saveRecordFile :: INIT :: "
-                    + " ^ " + destinationFile.path
-                    + " ^ " + destinationFile.isDirectory
-                    + " ^ " + destinationFile.isFile)
-            try {
-                try {
-                    inputStream = body.byteStream()
-                } catch (e: IOException) {
-                    e.printStackTrace()
-                }
-
-                ost = FileOutputStream(destinationFile, true)
-
-                val data = ByteArray(32 * 1024)
-                var fileSizeDownloaded: Long = 0
-                val fileSize = body.contentLength()
-
-                while (true) {
-                    val read = inputStream?.read(data) ?: break
-
-                    if (read == -1) {
-                        break
-                    }
-
-                    if (destinationFile.length() == fileSize) {
-                        break
-                    }
-
-                    DLog.e("bjj saveRecordFile :: ING "
-                            + destinationFile.path + " ^ "
-                            + destinationFile.length() + " ^ "
-                            + fileSizeDownloaded + " ^ "
-                            + fileSize)
-
-                    ost.write(data, 0, read)
-                    fileSizeDownloaded += read.toLong()
-                }
-
-                ost.flush()
-
-                DLog.e("bjj saveRecordFile :: DONE "
-                        + destinationFile.path + " ^ "
-                        + destinationFile.length())
-
-                (this@MainActivity as Activity).runOnUiThread {
-                    openFileManager(destinationFile.path, true)
-                }
-
-                return true
-            } catch (e: IOException) {
-                e.printStackTrace()
-
-                (this@MainActivity as Activity).runOnUiThread {
-                    openFileManager(destinationFile.path, false)
-                }
-
-                DLog.e("bjj saveRecordFile :: FAIL aa " + e)
-                return false
-            } finally {
-                inputStream?.close()
-                ost?.close()
-            }
-        } catch (e: IOException) {
-            e.printStackTrace()
-
-            (this@MainActivity as Activity).runOnUiThread {
-                openFileManager("", false)
-            }
-
-            DLog.e("bjj saveRecordFile :: FAIL bb " + e)
-            return false
-        }
-    }
+//    @Synchronized
+//    private fun saveRecordFile(body: ResponseBody, fileName: String): Boolean {
+//        try {
+//            val destinationFile: File
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+//                val resolver: ContentResolver = getContentResolver()
+//                val contentValues = ContentValues()
+//                contentValues.put(MediaStore.MediaColumns.DISPLAY_NAME, fileName)
+//                contentValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/png")
+//                contentValues.put(MediaStore.MediaColumns.RELATIVE_PATH, "DCIM" + File.separator + "1393")
+//                val fileUri: Uri? = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues)
+//
+//                destinationFile = File(fileUri?.path, "1393${File.separator}${fileName}")
+//            } else {
+//                val rootPath = Environment.getExternalStorageDirectory().absolutePath
+//                val savedRootFilePath = "$rootPath${File.separator}Download${File.separator}"
+//                val sohoDownloadFolder = File(savedRootFilePath, "${File.separator}1393")
+//
+//                if (!sohoDownloadFolder.exists()) {
+//                    sohoDownloadFolder.mkdirs()
+//                }
+//
+//                destinationFile = File(savedRootFilePath, "1393${File.separator}${fileName}")
+//            }
+//
+//            var inputStream: InputStream? = null
+//            var ost: OutputStream? = null
+//
+//            DLog.e("bjj saveRecordFile :: INIT :: "
+//                    + " ^ " + destinationFile.path
+//                    + " ^ " + destinationFile.isDirectory
+//                    + " ^ " + destinationFile.isFile)
+//            try {
+//                try {
+//                    inputStream = body.byteStream()
+//                } catch (e: IOException) {
+//                    e.printStackTrace()
+//                }
+//
+//                ost = FileOutputStream(destinationFile, true)
+//
+//                val data = ByteArray(32 * 1024)
+//                var fileSizeDownloaded: Long = 0
+//                val fileSize = body.contentLength()
+//
+//                while (true) {
+//                    val read = inputStream?.read(data) ?: break
+//
+//                    if (read == -1) {
+//                        break
+//                    }
+//
+//                    if (destinationFile.length() == fileSize) {
+//                        break
+//                    }
+//
+//                    DLog.e("bjj saveRecordFile :: ING "
+//                            + destinationFile.path + " ^ "
+//                            + destinationFile.length() + " ^ "
+//                            + fileSizeDownloaded + " ^ "
+//                            + fileSize)
+//
+//                    ost.write(data, 0, read)
+//                    fileSizeDownloaded += read.toLong()
+//                }
+//
+//                ost.flush()
+//
+//                DLog.e("bjj saveRecordFile :: DONE "
+//                        + destinationFile.path + " ^ "
+//                        + destinationFile.length())
+//
+//                (this@MainActivity as Activity).runOnUiThread {
+//                    openFileManager(destinationFile.path, true)
+//                }
+//
+//                return true
+//            } catch (e: IOException) {
+//                e.printStackTrace()
+//
+//                (this@MainActivity as Activity).runOnUiThread {
+//                    openFileManager(destinationFile.path, false)
+//                }
+//
+//                DLog.e("bjj saveRecordFile :: FAIL aa " + e)
+//                return false
+//            } finally {
+//                inputStream?.close()
+//                ost?.close()
+//            }
+//        } catch (e: IOException) {
+//            e.printStackTrace()
+//
+//            (this@MainActivity as Activity).runOnUiThread {
+//                openFileManager("", false)
+//            }
+//
+//            DLog.e("bjj saveRecordFile :: FAIL bb " + e)
+//            return false
+//        }
+//    }
 
     private fun openFileManager(path: String, isSuccess: Boolean) {
         if (!path.isEmpty()) {
