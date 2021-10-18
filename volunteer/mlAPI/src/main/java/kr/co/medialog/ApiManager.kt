@@ -1,11 +1,11 @@
+package kr.co.medialog
+
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import api.Constants
 import api.OnResultListener
 import api.OwlApi
-import kr.co.medialog.SettingInfoData
-import kr.co.medialog.UploadInfoData
 import okhttp3.MediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody

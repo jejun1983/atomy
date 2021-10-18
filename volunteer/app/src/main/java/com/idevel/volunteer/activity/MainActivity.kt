@@ -1,12 +1,11 @@
 package com.idevel.volunteer.activity
 
 
-import ApiManager
+import kr.co.medialog.ApiManager
 import android.Manifest
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
 import android.app.Activity
-import android.app.KeyguardManager
 import android.content.ClipData
 import android.content.Context
 import android.content.Intent
@@ -76,6 +75,9 @@ import java.net.URISyntaxException
 import java.net.URL
 import java.util.*
 import kotlin.system.exitProcess
+import android.content.ContentValues
+
+import android.content.ContentResolver
 
 
 /**
@@ -344,14 +346,14 @@ class MainActivity : FragmentActivity()
         mHandler.sendEmptyMessageDelayed(HANDLER_NETWORK_TIMER, PING_TIME.toLong())
 
         //다른앱 위에 화면 그리기 권한을 받는다
-        if (!isCanDrawOverlays(this@MainActivity)) {
-            showPopupPermissionPopup()
-        }
+//        if (!isCanDrawOverlays(this@MainActivity)) {
+//            showPopupPermissionPopup()
+//        }
 
         //모든 파일 접근 가능 권한
-        if (!isCanAllFileAcess()) {
-            gotoAllFileAcessPermission()
-        }
+//        if (!isCanAllFileAcess()) {
+//            gotoAllFileAcessPermission()
+//        }
 
         mWebview?.setBackgroundColor(Color.WHITE)
         mWebview?.setJSInterface(iWebBridgeApi)
@@ -701,7 +703,7 @@ class MainActivity : FragmentActivity()
 //        } else if (permissionStr.contains("READ_CALL_LOG")) {
 //            alertDialog.setDataSaveLayout(R.string.permissionDeny_title, R.string.permissionDeny_msg3)
 //        } else {
-            alertDialog.setDataSaveLayout(R.string.permissionDeny_title, R.string.permissionDeny_msg4)
+        alertDialog.setDataSaveLayout(R.string.permissionDeny_title, R.string.permissionDeny_msg4)
 //        }
 
         alertDialog.setButtonString(R.string.popup_btn_ok_dta_save, R.string.popup_btn_cancel_dta_save)
@@ -711,13 +713,13 @@ class MainActivity : FragmentActivity()
             when (v.id) {
                 R.id.btn_cancel -> finish()
                 R.id.btn_ok -> {
-                    if (permissionStr.contains("MANAGE_EXTERNAL_STORAGE")) {
-                        gotoAllFileAcessPermission()
-                    } else {
-                        val intent = Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
-                        intent.data = Uri.parse("package:$packageName")
-                        startActivity(intent)
-                    }
+//                    if (permissionStr.contains("MANAGE_EXTERNAL_STORAGE")) {
+//                        gotoAllFileAcessPermission()
+//                    } else {
+                    val intent = Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+                    intent.data = Uri.parse("package:$packageName")
+                    startActivity(intent)
+//                    }
 
                     finish()
                 }
@@ -737,13 +739,13 @@ class MainActivity : FragmentActivity()
         ContextCompat.startActivity(this@MainActivity, i, ActivityOptionsCompat.makeBasic().toBundle())
     }
 
-    private fun gotoAllFileAcessPermission() {
-        val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
-        val uri = Uri.fromParts("package", packageName, null)
-        intent.data = uri
-
-        ContextCompat.startActivity(this@MainActivity, intent, ActivityOptionsCompat.makeBasic().toBundle())
-    }
+//    private fun gotoAllFileAcessPermission() {
+//        val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+//        val uri = Uri.fromParts("package", packageName, null)
+//        intent.data = uri
+//
+//        ContextCompat.startActivity(this@MainActivity, intent, ActivityOptionsCompat.makeBasic().toBundle())
+//    }
 
     /**
      * Show network error dlg.
@@ -1004,18 +1006,18 @@ class MainActivity : FragmentActivity()
                             DLog.e("bjj PERMISSION checkPermission onPermissionsChecked bb ==>> "
                                     + Build.VERSION.SDK_INT)
 
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                                DLog.e("bjj PERMISSION checkPermission onPermissionsChecked bb ==>> "
-                                        + Build.VERSION.SDK_INT + " ^ "
-                                        + Environment.isExternalStorageManager())
-                                if (Environment.isExternalStorageManager()) {
-                                    setMainView()
-                                } else {
-                                    showPermissionDenyDialog("MANAGE_EXTERNAL_STORAGE")
-                                }
-
-                                return
-                            }
+//                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+//                                DLog.e("bjj PERMISSION checkPermission onPermissionsChecked bb ==>> "
+//                                        + Build.VERSION.SDK_INT + " ^ "
+//                                        + Environment.isExternalStorageManager())
+//                                if (Environment.isExternalStorageManager()) {
+//                                    setMainView()
+//                                } else {
+//                                    showPermissionDenyDialog("MANAGE_EXTERNAL_STORAGE")
+//                                }
+//
+//                                return
+//                            }
 
                             showPermissionDenyDialog("")
                         } else {
@@ -1037,7 +1039,6 @@ class MainActivity : FragmentActivity()
 
         return true
     }
-
 
 
     private fun removeSplash() {
@@ -2320,39 +2321,32 @@ class MainActivity : FragmentActivity()
     @Synchronized
     private fun saveRecordFile(body: ResponseBody, fileName: String): Boolean {
         try {
-            // 파일있으면 삭제부터 한다.
-//            deleteFile(fileName, pkgName)
+            val destinationFile: File
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                val resolver: ContentResolver = getContentResolver()
+                val contentValues = ContentValues()
+                contentValues.put(MediaStore.MediaColumns.DISPLAY_NAME, fileName)
+                contentValues.put(MediaStore.MediaColumns.MIME_TYPE, "image/png")
+                contentValues.put(MediaStore.MediaColumns.RELATIVE_PATH, "DCIM" + File.separator + "1393")
+                val fileUri: Uri? = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues)
 
-//      1
-            val rootPath = Environment.getExternalStorageDirectory().absolutePath
-            var savedRootFilePath = rootPath
-//      2
-//            var savedRootFilePath = if (rootPath.endsWith("/")) {
-//                "${rootPath}Android${File.separator}data${File.separator}${packageName}"
-//            } else {
-//                "${rootPath}${File.separator}Android${File.separator}data${File.separator}${packageName}"
-//            }
-//      3
-//            var savedRootFilePath = getExternalFilesDir(Environment.DIRECTORY_MOVIES)!!.path
+                destinationFile = File(fileUri?.path, "1393${File.separator}${fileName}")
+            } else {
+                val rootPath = Environment.getExternalStorageDirectory().absolutePath
+                val savedRootFilePath = "$rootPath${File.separator}Download${File.separator}"
+                val sohoDownloadFolder = File(savedRootFilePath, "${File.separator}1393")
 
+                if (!sohoDownloadFolder.exists()) {
+                    sohoDownloadFolder.mkdirs()
+                }
 
-            savedRootFilePath = "$savedRootFilePath${File.separator}Download${File.separator}"
-            var sohoDownloadFolder = File(savedRootFilePath, "${File.separator}1393")
-
-            if (!sohoDownloadFolder.exists()) {
-                sohoDownloadFolder.mkdirs()
+                destinationFile = File(savedRootFilePath, "1393${File.separator}${fileName}")
             }
 
-            val destinationFile = File(savedRootFilePath, "1393${File.separator}${fileName}")
             var inputStream: InputStream? = null
             var ost: OutputStream? = null
 
             DLog.e("bjj saveRecordFile :: INIT :: "
-                    + savedRootFilePath
-                    + " ^ " + sohoDownloadFolder.exists()
-                    + " ^ " + sohoDownloadFolder.path
-                    + " ^ " + sohoDownloadFolder.isDirectory
-                    + " ^ " + sohoDownloadFolder.isFile
                     + " ^ " + destinationFile.path
                     + " ^ " + destinationFile.isDirectory
                     + " ^ " + destinationFile.isFile)
