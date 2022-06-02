@@ -2218,7 +2218,8 @@ class MainActivity : FragmentActivity()
             uri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI
         }
 
-        var mCursor: Cursor? = contentResolver.query(uri!!, projection, null, null, MediaStore.Images.Media.DATE_MODIFIED + " desc")
+        var mCursor: Cursor? =
+            contentResolver.query(uri!!, projection, null, null, MediaStore.Images.Media.DATE_MODIFIED + " desc")
 
         if (mCursor == null || mCursor.getCount() < 1) {
             return null // no cursor or no record

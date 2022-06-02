@@ -1196,6 +1196,10 @@
         "source": "/Users/jjbae/.gradle/caches/transforms-2/files-2.1/b652af407a2ffe326d6642a59cb6c859/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/jjbae/Desktop/backup/dm/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_icon4.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/dm/app/src/main/res/mipmap-xxhdpi/app_icon4.png"
+    },
+    {
         "merged": "/Users/jjbae/Desktop/backup/dm/app/build/intermediates/res/merged/debug/drawable-hdpi_popup_btn_right_press.9.png.flat",
         "source": "/Users/jjbae/Desktop/backup/dm/app/src/main/res/drawable-hdpi/popup_btn_right_press.9.png"
     },

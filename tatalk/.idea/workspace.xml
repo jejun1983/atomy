@@ -10,14 +10,40 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f91a9e-f5a2-4b35-a109-52e90355f049" name="Default Changelist" comment="[jjbae]&#10;&#10;1. 상용 빌드" />
+    <list default="true" id="c2f91a9e-f5a2-4b35-a109-52e90355f049" name="Default Changelist" comment="[jjbae]&#10;&#10;1. 상용 빌드">
+      <change beforePath="$PROJECT_DIR$/../dailyInspection" beforeDir="false" afterPath="$PROJECT_DIR$/../dailyInspection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_15_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_15_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_15_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_15_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_15_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_15_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_15_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_15_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_15_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/tatalk.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/tatalk.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mlAPI/tatalk.mlAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mlAPI/tatalk.mlAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/tatalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tatalk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LMV510N5f702a28]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/jjbae/.android/avd/Nexus_10_API_22.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,17 +65,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="tatalk" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tatalk" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tatalk" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="install" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,6 +76,9 @@
     <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/keystore/tatalk_keystore" />
     <option name="KEY_ALIAS" value="jjbae" />
     <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1dyWAGXrFASdAcActo80oA6PsSG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,6 +95,7 @@
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/tatalk/web/BaseWebView.kt_SELECTED" value="BaseWebView" />
     <property name="android-custom-view/Users/jjbae/Desktop/work/공유/Source/Umobi/branch/android/waterBottle/app/src/main/java/com/idevel/waterbottle/material/MaterialRippleLayout.java_SELECTED" value="MaterialRippleLayout" />
@@ -98,6 +117,13 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager" selected="Gradle.tatalk [installDebug]">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -107,36 +133,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="tatalk.app" />
@@ -146,6 +144,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -217,7 +216,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="tatalk [installRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -236,7 +237,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="tatalk [uninstallAll]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -255,7 +258,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="waterBottle:app [installRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -274,7 +279,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="waterBottle:app [uninstallDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -293,8 +300,17 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -315,6 +331,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -411,96 +428,5 @@
     <MESSAGE value="[jjbae]&#10;&#10;1. google inapp add" />
     <MESSAGE value="[jjbae]&#10;&#10;1. code 정리" />
     <option name="LAST_COMMIT_MESSAGE" value="[jjbae]&#10;&#10;1. code 정리" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="607" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617761011430">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state x="607" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1735.1095@0.25.1735.1095" timestamp="1617761011429" />
-    <state x="-3840" y="-45" width="1733" height="1095" key="CommitChangelistDialog2" timestamp="1620308745508">
-      <screen x="-3840" y="-45" width="1920" height="1055" />
-    </state>
-    <state x="-3840" y="-45" key="CommitChangelistDialog2/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-3840.-45.1920.1055" timestamp="1620308745508" />
-    <state x="0" y="25" width="1727" height="1095" key="CommitChangelistDialog2/0.25.1727.1095@0.25.1727.1095" timestamp="1619739291896" />
-    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1731.1095@0.25.1731.1095" timestamp="1620129732055" />
-    <state x="0" y="25" width="1733" height="1095" key="CommitChangelistDialog2/0.25.1733.1095@0.25.1733.1095" timestamp="1620133551970" />
-    <state x="0" y="25" width="1735" height="1095" key="CommitChangelistDialog2/0.25.1735.1095@0.25.1735.1095" timestamp="1617754732039" />
-    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog" timestamp="1620293759294">
-      <screen x="0" y="25" width="1487" height="935" />
-    </state>
-    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@0.25.1486.935" timestamp="1620293546155" />
-    <state x="126" y="110" width="1312" height="765" key="DiffContextDialog/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@0.25.1487.935" timestamp="1620293759294" />
-    <state x="147" y="125" width="1528" height="895" key="DiffContextDialog/0.25.1727.1095@0.25.1727.1095" timestamp="1620130407448" />
-    <state x="147" y="125" width="1528" height="895" key="DiffContextDialog/0.25.1731.1095@0.25.1731.1095" timestamp="1620131178238" />
-    <state x="147" y="125" width="1530" height="895" key="DiffContextDialog/0.25.1735.1095@0.25.1735.1095" timestamp="1617972846000" />
-    <state x="147" y="125" width="1532" height="895" key="DiffContextDialog/0.25.1736.1095@0.25.1736.1095" timestamp="1617762796427" />
-    <state width="1693" height="171" key="GridCell.Tab.0.bottom" timestamp="1626097203862">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state width="1440" height="172" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1482.935@0.25.1482.935" timestamp="1620735431450" />
-    <state width="1440" height="237" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620285833864" />
-    <state width="1920" height="957" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620294265321" />
-    <state width="1878" height="237" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716458" />
-    <state width="1441" height="171" key="GridCell.Tab.0.bottom/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@-1920.-45.1920.1055" timestamp="1621316222724" />
-    <state width="1689" height="171" key="GridCell.Tab.0.bottom/0.25.1731.1095@0.25.1731.1095" timestamp="1621923301160" />
-    <state width="1691" height="248" key="GridCell.Tab.0.bottom/0.25.1733.1095@0.25.1733.1095" timestamp="1620625523704" />
-    <state width="1693" height="171" key="GridCell.Tab.0.bottom/0.25.1735.1095@0.25.1735.1095" timestamp="1626097203862" />
-    <state width="1735" height="997" key="GridCell.Tab.0.bottom/0.25.1736.1095@0.25.1736.1095" timestamp="1626097170193" />
-    <state width="1693" height="171" key="GridCell.Tab.0.center" timestamp="1626097203862">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state width="1440" height="172" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1482.935@0.25.1482.935" timestamp="1620735431449" />
-    <state width="1440" height="237" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620285833864" />
-    <state width="1878" height="237" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620294021035" />
-    <state width="1878" height="237" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716457" />
-    <state width="1441" height="171" key="GridCell.Tab.0.center/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@-1920.-45.1920.1055" timestamp="1621316222723" />
-    <state width="1689" height="171" key="GridCell.Tab.0.center/0.25.1731.1095@0.25.1731.1095" timestamp="1621923301160" />
-    <state width="1691" height="248" key="GridCell.Tab.0.center/0.25.1733.1095@0.25.1733.1095" timestamp="1620625523704" />
-    <state width="1693" height="171" key="GridCell.Tab.0.center/0.25.1735.1095@0.25.1735.1095" timestamp="1626097203862" />
-    <state width="1735" height="997" key="GridCell.Tab.0.center/0.25.1736.1095@0.25.1736.1095" timestamp="1626097170191" />
-    <state width="1693" height="171" key="GridCell.Tab.0.left" timestamp="1626097203861">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state width="1440" height="172" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1482.935@0.25.1482.935" timestamp="1620735431449" />
-    <state width="1440" height="237" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620285833864" />
-    <state width="1878" height="237" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620294021035" />
-    <state width="1878" height="237" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716456" />
-    <state width="1441" height="171" key="GridCell.Tab.0.left/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@-1920.-45.1920.1055" timestamp="1621316222723" />
-    <state width="1689" height="171" key="GridCell.Tab.0.left/0.25.1731.1095@0.25.1731.1095" timestamp="1621923301159" />
-    <state width="1691" height="248" key="GridCell.Tab.0.left/0.25.1733.1095@0.25.1733.1095" timestamp="1620625523703" />
-    <state width="1693" height="171" key="GridCell.Tab.0.left/0.25.1735.1095@0.25.1735.1095" timestamp="1626097203861" />
-    <state width="1735" height="997" key="GridCell.Tab.0.left/0.25.1736.1095@0.25.1736.1095" timestamp="1626097170190" />
-    <state width="1693" height="171" key="GridCell.Tab.0.right" timestamp="1626097203862">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state width="1440" height="172" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1482.935@0.25.1482.935" timestamp="1620735431450" />
-    <state width="1440" height="237" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620285833864" />
-    <state width="1920" height="957" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620294265320" />
-    <state width="1878" height="237" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-1920.-45.1920.1055" timestamp="1620304716457" />
-    <state width="1441" height="171" key="GridCell.Tab.0.right/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1487.935@-1920.-45.1920.1055" timestamp="1621316222724" />
-    <state width="1689" height="171" key="GridCell.Tab.0.right/0.25.1731.1095@0.25.1731.1095" timestamp="1621923301160" />
-    <state width="1691" height="248" key="GridCell.Tab.0.right/0.25.1733.1095@0.25.1733.1095" timestamp="1620625523704" />
-    <state width="1693" height="171" key="GridCell.Tab.0.right/0.25.1735.1095@0.25.1735.1095" timestamp="1626097203862" />
-    <state width="1735" height="997" key="GridCell.Tab.0.right/0.25.1736.1095@0.25.1736.1095" timestamp="1626097170192" />
-    <state x="97" y="66" key="SettingsEditor" timestamp="1617777889828">
-      <screen x="0" y="25" width="1733" height="1095" />
-    </state>
-    <state x="97" y="66" key="SettingsEditor/0.25.1733.1095@0.25.1733.1095" timestamp="1617777889828" />
-    <state x="155" y="213" width="1503" height="907" key="find.popup" timestamp="1626140509521">
-      <screen x="0" y="25" width="1738" height="1095" />
-    </state>
-    <state x="24" y="97" width="1282" height="774" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1483.935@0.25.1483.935" timestamp="1620287831123" />
-    <state x="-1889" y="36" width="1661" height="874" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1485.935@-1920.-45.1920.1055" timestamp="1620294222915" />
-    <state x="-3809" y="36" width="1661" height="874" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@-3840.-45.1920.1055" timestamp="1620308973061" />
-    <state x="24" y="97" width="1285" height="774" key="find.popup/-1920.-45.1920.1055/-3840.-45.1920.1055/0.25.1486.935@0.25.1486.935" timestamp="1621315651357" />
-    <state x="96" y="153" width="1275" height="901" key="find.popup/0.25.1731.1095@0.25.1731.1095" timestamp="1620132244836" />
-    <state x="28" y="109" width="1497" height="906" key="find.popup/0.25.1733.1095@0.25.1733.1095" timestamp="1620134223663" />
-    <state x="96" y="153" width="1277" height="901" key="find.popup/0.25.1735.1095@0.25.1735.1095" timestamp="1617762771116" />
-    <state x="96" y="153" width="1278" height="901" key="find.popup/0.25.1736.1095@0.25.1736.1095" timestamp="1617763331014" />
-    <state x="155" y="213" width="1503" height="907" key="find.popup/0.25.1738.1095@0.25.1738.1095" timestamp="1626140509521" />
-    <state x="534" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1617755229915">
-      <screen x="0" y="25" width="1735" height="1095" />
-    </state>
-    <state x="534" y="269" width="670" height="676" key="search.everywhere.popup/0.25.1735.1095@0.25.1735.1095" timestamp="1617755229915" />
   </component>
 </project>

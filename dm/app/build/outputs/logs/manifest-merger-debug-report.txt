@@ -107,7 +107,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /User
 	android:largeHeap
 		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:11:7-31
 	android:icon
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:9:7-40
+		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:9:7-39
 	android:allowBackup
 		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:7:7-34
 	android:theme
@@ -276,38 +276,6 @@ uses-permission#android.permission.VIBRATE
 ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:116:3-64
 	android:name
 		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:116:20-61
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:119:3-73
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:119:20-70
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:124:3-69
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:124:20-66
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:126:3-77
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:126:20-74
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:127:3-79
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:127:20-76
-uses-permission#android.permission.CAMERA
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:129:3-63
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:129:20-60
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:131:3-78
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:131:20-75
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:132:3-79
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:132:20-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:135:3-74
-	android:name
-		ADDED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml:135:20-71
 uses-sdk
 INJECTED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jjbae/Desktop/backup/dm/app/src/main/AndroidManifest.xml

@@ -3918,6 +3918,7 @@ layout view_permission
 layout view_splash
 layout widget_popup_button
 mipmap app_icon
+mipmap app_icon4
 mipmap app_icon_2
 mipmap app_icon_3
 string abc_action_bar_home_description
